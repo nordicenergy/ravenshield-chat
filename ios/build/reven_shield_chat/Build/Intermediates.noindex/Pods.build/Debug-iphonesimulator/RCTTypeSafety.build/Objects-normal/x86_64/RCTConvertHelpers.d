@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/Optional.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/Portability.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/CPortability.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/Traits.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/Utility.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/mikovainio/WebstormProjects/ravenshield_chat/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h
