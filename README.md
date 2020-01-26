@@ -4,13 +4,14 @@
   </a>
   <br>
 </p>
+<h1 align="center">RavenShield</h1>
 <p align="center">
   <a href="https://ravenshield.nordicenergy.io/">Project Website</a> |
   <a href="https://ravenshield.nordicenergy.io/donate">Donate</a> |
   <a href="https://github.com/sponsors/rdymac">Sponsor</a> |
   <a href="https://ravenshield.nordicenergy.io/buy">Buy</a>
 </p>
-<h1 align="center">RavenShield</h1>
+
 
 
 The Blockchain based mobile application for the RavenShield. The aim is to build an app for communication using text messages, images, documents or voice notes, and also for broadcasting offline signed Nordic Energy tokens and cryptocurrency transactions.
