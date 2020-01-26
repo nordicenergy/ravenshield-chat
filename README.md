@@ -23,9 +23,9 @@ The Nordic Energy´s RavenShield is a radio network for off-grid messaging and c
 
 If you want to learn more about RavenShield feel free to read the RavenShiled [main repository](https://github.com/nordicenergy/ravenshield) or take a look at our website [raveshield.app](https://ravenshield.app).
 
-### Chat 
+### RavenShield Chat 
 
-RavenShield is a radio network for communications bitcoin and Nordic Energy token transactions without internet of even power-grid. We are working not only in a protocol, but also the firmwares for affordable devices like the Turpial of Herpian. 
+RavenShield Chat is a radio network for communications bitcoin and Nordic Energy token transactions without internet of even power-grid. We are working not only in a protocol, but also the firmwares for affordable devices like the Turpial of Herpian. 
 
 
 
