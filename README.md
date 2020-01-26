@@ -16,19 +16,19 @@
 The Blockchain based mobile application for the RavenShield. The aim is to build an app for communication using text messages, images, documents or voice notes, and also for broadcasting offline signed Nordic Energy tokens and cryptocurrency transactions.
 
 
-## About RavenShield
+### About RavenShield
 
 The Nordic Energy´s RavenShield is a radio network for off-grid messaging and cryptocurrency transactions without access to the internet. The main objective is a long range network for everyone, everywhere. For this reason we are working not only in a protocol, but also the firmware for affordable devices like the Turpial, Harpia, or their DIY equivalents. We adhere to open source ethos at every step and aim to make this tool as decentralized as possible so users can transmit with freedom.
 
 If you want to learn more about RavenShield feel free to read the RavenShiled [main repository](https://github.com/nordicenergy/ravenshield) or take a look at our website [raveshield.app](https://ravenshield.app).
 
-## Chat 
+### Chat 
 
 RavenShield is a radio network for communications bitcoin and Nordic Energy token transactions without internet of even power-grid. We are working not only in a protocol, but also the firmwares for affordable devices like the Turpial of Herpian. 
 
 
 
-## Sponsor
+### Sponsor
 
 If you want to support this project you can make a donation to the RavenShiled
 effort to build private censorship-resistant mesh network devices for cryptocurrency payments without Internet.
@@ -39,13 +39,13 @@ Here are some places if you want to support us:
 - Buy Turpial devices: https://ravenshield.app/buy
 
 
-## Development Workflow
+### Development Workflow
 
 The development code is located on the `dev` branch. All the development
 happens there and all Pull-Requests should be pointed to that branch.
 Make sure your Pull-Request follows the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines.
 
-## Screens
+### Screens
 
 <div align="center">
 
