@@ -4,8 +4,7 @@
   </a>
   <br>
 </p>
-<h1 align="center">RavenShield</h1>
-<h5 align="center">Chat and send Bitcoin and Nordic Energy tokens without internet connection.</h5>
+<h1 align="center">RavenShield - Chat and send Bitcoin and Nordic Energy tokens without internet connection.</h1>
 <p align="center">
   <a href="https://ravenshield.nordicenergy.io/">Project Website</a> |
   <a href="https://ravenshield.nordicenergy.io/donate">Donate</a> |
