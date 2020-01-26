@@ -5,24 +5,10 @@
   <br>
 </p>
 <p align="center">
-  <a href="https://ravenshield.app/">Project Website</a> |
-  <a href="https://ravenshield.app/donate">Donate</a> |
+  <a href="https://ravenshield.nordicenergy.io/">Project Website</a> |
+  <a href="https://ravenshield.nordicenergy.io/donate">Donate</a> |
   <a href="https://github.com/sponsors/rdymac">Sponsor</a> |
-  <a href="https://ravenshield.app/buy">Buy</a>
-</p>
-<h1 align="center">RavenShield App</h1>
-
-<p align="center">
-  <a href="https://ravenshield.nordicenergy.app/">
-    <img height="200px" src="documents/configuration/files/logo.png">
-  </a>
-  <br>
-</p>
-<p align="center">
-  <a href="https://ravenshield.app/">Project Website</a> |
-  <a href="https://ravenshield.app/donate">Donate</a> |
-  <a href="https://github.com/sponsors/rdymac">Sponsor</a> |
-  <a href="https://ravenshield.app/buy">Buy</a>
+  <a href="https://ravenshield.nordicenergy.io/buy">Buy</a>
 </p>
 <h1 align="center">RavenShield</h1>
 
