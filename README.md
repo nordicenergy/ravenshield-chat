@@ -1,5 +1,5 @@
 
-!RavenShield Chat](docs/images/ravenshield-banner-1.png)
+RavenShield Chat](docs/images/ravenshield-banner-1.png)
 
 <p align="center">
   <a href="https://ravenshield.nordicenergy.app">
