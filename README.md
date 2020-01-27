@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ravenshield.nordicenergy.io/">
+  <a href="https://github.com/nordicenergy/ravenshield-chat/tree/master/docs/images">
     <img height="200px" docs="images/ravenshield-banner-1.png">
   </a>
   <br>
