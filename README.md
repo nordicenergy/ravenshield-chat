@@ -1,5 +1,8 @@
+
+!RavenShield Chat](docs/images/ravenshield-banner-1.png)
+
 <p align="center">
-  <a href="https://github.com/nordicenergy/ravenshield-chat/tree/master/docs/images">
+  <a href="https://ravenshield.nordicenergy.app">
     <img height="200px" docs="images/ravenshield-banner-1.png">
   </a>
   <br>
