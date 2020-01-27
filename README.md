@@ -24,10 +24,10 @@ The Nordic Energy´s RavenShield is a radio network for off-grid messaging and c
 
 If you want to learn more about RavenShield feel free to read the RavenShiled [main repository](https://github.com/nordicenergy/ravenshield) or take a look at our website [raveshield.app](https://ravenshield.app).
 
+
 ### RavenShield Chat 
 
 RavenShield Chat is a radio network for communications bitcoin and Nordic Energy token transactions without internet of even power-grid. We are working not only in a protocol, but also the firmwares for affordable devices like the Turpial of Herpian. 
-
 
 
 ### Sponsor
@@ -35,10 +35,44 @@ RavenShield Chat is a radio network for communications bitcoin and Nordic Energy
 If you want to support this project you can make a donation to the RavenShiled
 effort to build private censorship-resistant mesh network devices for cryptocurrency payments without Internet.
 
-Here are some places if you want to support us:
+Nordic Energy and its sponsorship principles are based on Smart Energy Corporation. Ltd values ​​and sponsorship targets support the Group's strategy.
 
-- Donate: httos://ravenshield.app/donate
-- Buy Turpial devices: https://ravenshield.app/buy
+
+#### Sponsorship
+
+At Nordic Energy, we are primarily involved in supporting nationwide projects around blockchain technology, renewable energy, people's everyday lives, promoting quality of life and sustainable development, and bringing joy to as many people as possible. Our sponsorship projects share the values of Nordic Energy and our partnership fits in with Nordic Energy's promise: customer and quality - in everything we do.
+
+Local agreement, installation of energy systems and product sales are also important partners for many regional energy producers, suppliers and charities. Communities, electricity sellers can support the operation of the electricity grid in their area, thereby contributing to reducing energy consumption, protecting our environment and improving security of electricity supply.
+
+
+### sponsorship Application
+
+Sponsored by Nordic Energy
+
+
+### Donations
+
+Nordic Energy / Group may make donations to non-profit organizations from donations made by the General Meeting. The Board of Directors of the company decides on donations.
+
+At the moment we support eg. environmental development activities and all tokens sold are donated to charity fundraising that meets our exact requirements:
+
+- To reduce plastic waste
+- Supports renewable energy
+- Enables a significant reduction in electricity consumption and carbon dioxide emissions
+- Develop and improve effective waste management in developing countries
+- Energy storage technology development and origin verification.
+
+### Here are some places if you want to support us:
+
+- Project website: https://ravenshield.nordicenergy.io (development)
+- Donate: https://ravenshield.nordicenergy.app/donate
+- Buy Turpial devices: https://nordicenergy.co/shop/products/turpial/buy (Shop under construction)
+
+### Other Projects
+
+- ICO/STO project: https://nordicenergy.io
+- EV Charging: https://smartcharging.solutions
+- Token Sale Dashboard: https:nordicenergy.app
 
 
 ### Development Workflow
@@ -180,7 +214,7 @@ For android verify that you have a device or emulator connected.
 
 ## License
 
-Copyright (c) 2019 Nordic Energy and RavenShield developers.
+Copyright (c) 2020 Nordic Energy and RavenShield developers.
 
 Licensed under the **Apache License, Version 2.0**
 
