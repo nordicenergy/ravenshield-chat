@@ -3,7 +3,7 @@ ravenshield chat](docs/images/ravenshield-banner-1.png)
 
 <p align="center">
   <a href="https://ravenshield.nordicenergy.app">
-    <img height="200px" docs="images/ravenshield-banner-1.png">
+    <img height="200px" docs="docs/images/ravenshield-banner-1.png">
   </a>
   <br>
 </p>
