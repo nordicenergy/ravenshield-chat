@@ -45,12 +45,12 @@ At Nordic Energy, we are primarily involved in supporting nationwide projects ar
 Local agreement, installation of energy systems and product sales are also important partners for many regional energy producers, suppliers and charities. Communities, electricity sellers can support the operation of the electricity grid in their area, thereby contributing to reducing energy consumption, protecting our environment and improving security of electricity supply.
 
 
-### Future development - Sponsorship Application
+#### Future development - Sponsorship Application
 
 Sponsored by Nordic Energy
 
 
-### Donations
+#### Donations platform
 
 Nordic Energy / Group may make donations to non-profit organizations from donations made by the General Meeting. The Board of Directors of the company decides on donations.
 
