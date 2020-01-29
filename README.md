@@ -86,28 +86,28 @@ Make sure your Pull-Request follows the [CONTRIBUTING.md](CONTRIBUTING.md) guide
 
 <div align="center">
 
- <img height="400px" width="24%" docs="imsages//Screenshot_20200110_140312_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%"docs="imsages//Screenshot_20200109_173508_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_140007_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" docs="imsages//Screenshot_20200109_173557_app.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="images//Screenshot_20200110_140312_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images//Screenshot_20200109_173508_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images/Screenshot_20200110_140007_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images//Screenshot_20200109_173557_app.ravenshieldchat.jpg">
 
 </div >
 
 <div align="center">
 
- <img height="400px" width="24%" docs="imsages/Screenshot_20200109_173543_app.ravenshieldchat.jpg">
- <img height="400px" width="24%" docs="imsages/Screenshot_20200110_135149_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" docs="imsages//Screenshot_20200110_135621_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_135127_app.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="images/Screenshot_20200109_173543_app.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="images/Screenshot_20200110_135149_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images//Screenshot_20200110_135621_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images/Screenshot_20200110_135127_app.ravenshieldchat.jpg">
 
 </div >
 
 <div align="center">
 
- <img height="400px" width="24%" docs="imsages/Screenshot_20200110_140324_app.ravenshieldchat.jpg">
- <img height="400px" width="24%" docs="imsages/Screenshot_20200110_140334_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_140347_app.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_135047_app.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="images/Screenshot_20200110_140324_app.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="images/Screenshot_20200110_140334_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images/Screenshot_20200110_140347_app.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="images/Screenshot_20200110_135047_app.ravenshieldchat.jpg">
 </div >
 
 
