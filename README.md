@@ -95,19 +95,19 @@ Make sure your Pull-Request follows the [CONTRIBUTING.md](CONTRIBUTING.md) guide
 
 <div align="center">
 
- <img height="400px" width="24%" src="documents/configuration/files/Screenshot_20200109_173543_com.ravenshieldchat.jpg">
- <img height="400px" width="24%" src="documents/configuration/files/Screenshot_20200110_135149_com.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" src="documents/configuration/files/Screenshot_20200110_135621_com.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" src="documents/configuration/files/Screenshot_20200110_135127_com.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="imsages//Screenshot_20200109_173543_com.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="imsages/Screenshot_20200110_135149_com.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="imsages//Screenshot_20200110_135621_com.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_135127_com.ravenshieldchat.jpg">
 
 </div >
 
 <div align="center">
 
- <img height="400px" width="24%" src="documents/configuration/files/Screenshot_20200110_140324_com.ravenshieldchat.jpg">
- <img height="400px" width="24%" src="documents/configuration/files/Screenshot_20200110_140334_com.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" src="documents/configuration/files/Screenshot_20200110_140347_com.ravenshieldchat.jpg">
- <img height="400Ppx" width="24%" src="documents/configuration/files/Screenshot_20200110_135047_com.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="imsages/Screenshot_20200110_140324_com.ravenshieldchat.jpg">
+ <img height="400px" width="24%" docs="imsages/Screenshot_20200110_140334_com.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_140347_com.ravenshieldchat.jpg">
+ <img height="400Ppx" width="24%" docs="imsages/Screenshot_20200110_135047_com.ravenshieldchat.jpg">
 </div >
 
 
