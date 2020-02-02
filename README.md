@@ -10,7 +10,7 @@
   <a href="https://ravenshield.nordicenergy.io/">Project Website</a> |
   <a href="https://ravenshield.nordicenergy.io/donate">Donate</a> |
   <a href="https://github.com/sponsors/rdymac">Sponsor</a> |
-  <a href="https://nordicenergy.app/buy">Buy</a>
+  <a href="https://nordicenergy.app/buy">Token Sale</a>
 </p>
 
 
