@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://ravenshield.nordicenergy.app">
-  <img height="200px" src="images/lravenshield-banner-1.png">
+  <img height="200px" src="images/ravenshield-banner-1.png">
   </a>
   <br>
 </p>
