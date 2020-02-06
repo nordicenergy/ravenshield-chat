@@ -52,7 +52,7 @@ Sponsored by Nordic Energy
 
 #### Donations platform
 
-Nordic Energy / Group may make donations to non-profit organizations from donations made by the General Meeting. The Board of Directors of the company decides on donations.
+Nordic Energy / Green Ventures Group may make donations to non-profit organizations from donations made by the General Meeting. The Board of Directors of the company decides on donations.
 
 At the moment we support eg. environmental development activities and all tokens sold are donated to charity fundraising that meets our exact requirements:
 
@@ -229,3 +229,20 @@ limitations under the License.
 ___
 Read the full text:
 [RavenShiled Apache License 2.0](https://github.com/nordicenergy/RavenShield-Chat/blob/master/LICENSE)
+
+
+### ⭐️ Show your support
+Please ⭐️ this repository if this project helped you!
+
+
+#### Donation
+If you like this project, feel free to donate:
+* Bitcoin:  14GyqCEZXyeythb6B6Vu5DiBCMszFrBsp1
+* Litecoin: LSi7smGjLwAmihFLEtV7Lit9Mmbsds9Tin
+* Ripple: rE5DbPTbtYT6tKqfXMD8352tTpdNvFydxb
+* Tron: TFSx6BBFNdxXoJJrTEWGEekTmb1AwNEEca
+* Ethereum: 0x0A6f46F29e047EdcFdf7BF67fD1DcC418100beea
+* DAI: 0x3FcDF18672dF7079E3146C87502003fb7dB4fa38
+* Paypal: paypal.me/nordicenergy
+
+
