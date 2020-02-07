@@ -1,33 +1,33 @@
 
 <p align="center">
-  <a href="https://ravenshield.nordicenergy.app">
+  <a href="https://ravenshield.app">
   <img height="200px" src="docs/images/logo2.png">
   </a>
   <br>
 </p>
 <h4 align="center">Chat and send Bitcoin and Nordic Energy tokens without internet connection.</h4>
 <p align="center">
-  <a href="https://ravenshield.nordicenergy.io/">Project Website</a> |
-  <a href="https://ravenshield.nordicenergy.io/donate">Donate</a> |
+  <a href="https://ravenshield.app/">Project Website</a> |
+  <a href="https://donate.ravenshield.app/donate">Donate</a> |
   <a href="https://github.com/sponsors/rdymac">Sponsor</a> |
   <a href="https://nordicenergy.app/buy">ICO Token Sale</a>
 </p>
 
+___
 
 
-The Blockchain based mobile application for the RavenShield. The aim is to build an app for communication using text messages, images, documents or voice notes, and also for broadcasting offline signed Nordic Energy tokens and cryptocurrency transactions.
-
-
-### About RavenShield
+### Nordic Energy´s RavenShield Chat
 
 The Nordic Energy´s RavenShield is a radio network for off-grid messaging and cryptocurrency transactions without access to the internet. The main objective is a long range network for everyone, everywhere. For this reason we are working not only in a protocol, but also the firmware for affordable devices like the Turpial, Harpia, or their DIY equivalents. We adhere to open source ethos at every step and aim to make this tool as decentralized as possible so users can transmit with freedom.
 
 If you want to learn more about RavenShield feel free to read the RavenShiled [main repository](https://github.com/nordicenergy/ravenshield) or take a look at our website [raveshield.app](https://ravenshield.app).
 
 
-### RavenShield Chat 
+### How It Works?
 
 RavenShield Chat is a radio network for communications bitcoin and Nordic Energy token transactions without internet of even power-grid. We are working not only in a protocol, but also the firmwares for affordable devices like the Turpial of Herpian. 
+
+The Blockchain based mobile application for the RavenShield. The aim is to build an app for communication using text messages, images, documents or voice notes, and also for broadcasting offline signed Nordic Energy tokens, bitcoin and other cryptocurrency transactions.
 
 
 ### Sponsor
@@ -226,17 +226,20 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-___
 Read the full text:
 [RavenShiled Apache License 2.0](https://github.com/nordicenergy/RavenShield-Chat/blob/master/LICENSE)
 
+___
 
 ### ⭐️ Show your support
+
 Please ⭐️ this repository if this project helped you!
 
 
 #### Donation
-If you like this project, feel free to donate:
+
+##### If you like this project, feel free to donate:
+
 * Bitcoin:  14GyqCEZXyeythb6B6Vu5DiBCMszFrBsp1
 * Litecoin: LSi7smGjLwAmihFLEtV7Lit9Mmbsds9Tin
 * Ripple: rE5DbPTbtYT6tKqfXMD8352tTpdNvFydxb
@@ -244,5 +247,4 @@ If you like this project, feel free to donate:
 * Ethereum: 0x0A6f46F29e047EdcFdf7BF67fD1DcC418100beea
 * DAI: 0x3FcDF18672dF7079E3146C87502003fb7dB4fa38
 * Paypal: paypal.me/nordicenergy
-
 
