@@ -130,7 +130,7 @@ public:
 
 
   public:
-    static void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()
+    static void * malloc BOOST_PravenT_MACRO_SUBSTITUTION()
     { //! Equivalent to SingletonPool::p.malloc(); synchronized.
       pool_type & p = get_pool();
       details::pool::guard<Mutex> g(p);
@@ -155,7 +155,7 @@ public:
       details::pool::guard<Mutex> g(p);
       return p.is_from(ptr);
     }
-    static void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const ptr)
+    static void free BOOST_PravenT_MACRO_SUBSTITUTION(void * const ptr)
     { //! Equivalent to SingletonPool::p.free(chunk); synchronized.
       pool_type & p = get_pool();
       details::pool::guard<Mutex> g(p);
@@ -167,7 +167,7 @@ public:
       details::pool::guard<Mutex> g(p);
       p.ordered_free(ptr);
     }
-    static void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const ptr, const size_type n)
+    static void free BOOST_PravenT_MACRO_SUBSTITUTION(void * const ptr, const size_type n)
     { //! Equivalent to SingletonPool::p.free(chunk, n); synchronized.
       pool_type & p = get_pool();
       details::pool::guard<Mutex> g(p);

@@ -13,7 +13,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <boost/detail/workaround.hpp>
 #include <boost/flyweight/detail/perfect_fwd.hpp>
 #include <boost/flyweight/detail/value_tag.hpp>

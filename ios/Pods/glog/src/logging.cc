@@ -473,7 +473,7 @@ class LogDestination {
   static void FlushLogFilesUnsafe(int min_severity);
 
   // we set the maximum size of our packet to be 1400, the logic being
-  // to prevent fragmentation.
+  // to pravent fragmentation.
   // Really this number is arbitrary.
   static const int kNetworkBytes = 1400;
 
@@ -586,7 +586,7 @@ inline void LogDestination::FlushLogFilesUnsafe(int min_severity) {
 }
 
 inline void LogDestination::FlushLogFiles(int min_severity) {
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&log_mutex);
   for (int i = min_severity; i < NUM_SEVERITIES; i++) {
@@ -600,7 +600,7 @@ inline void LogDestination::FlushLogFiles(int min_severity) {
 inline void LogDestination::SetLogDestination(LogSeverity severity,
 					      const char* base_filename) {
   assert(severity >= 0 && severity < NUM_SEVERITIES);
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&log_mutex);
   log_destination(severity)->fileobject_.SetBasename(base_filename);
@@ -615,7 +615,7 @@ inline void LogDestination::SetLogSymlink(LogSeverity severity,
 }
 
 inline void LogDestination::AddLogSink(LogSink *destination) {
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&sink_mutex_);
   if (!sinks_)  sinks_ = new vector<LogSink*>;
@@ -623,7 +623,7 @@ inline void LogDestination::AddLogSink(LogSink *destination) {
 }
 
 inline void LogDestination::RemoveLogSink(LogSink *destination) {
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&sink_mutex_);
   // This doesn't keep the sinks in order, but who cares?
@@ -639,7 +639,7 @@ inline void LogDestination::RemoveLogSink(LogSink *destination) {
 }
 
 inline void LogDestination::SetLogFilenameExtension(const char* ext) {
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&log_mutex);
   for ( int severity = 0; severity < NUM_SEVERITIES; ++severity ) {
@@ -649,7 +649,7 @@ inline void LogDestination::SetLogFilenameExtension(const char* ext) {
 
 inline void LogDestination::SetStderrLogging(LogSeverity min_severity) {
   assert(min_severity >= 0 && min_severity < NUM_SEVERITIES);
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&log_mutex);
   FLAGS_stderrthreshold = min_severity;
@@ -667,7 +667,7 @@ inline void LogDestination::LogToStderr() {
 inline void LogDestination::SetEmailLogging(LogSeverity min_severity,
 					    const char* addresses) {
   assert(min_severity >= 0 && min_severity < NUM_SEVERITIES);
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // all this stuff.
   MutexLock l(&log_mutex);
   LogDestination::email_logging_severity_ = min_severity;
@@ -1304,7 +1304,7 @@ void LogMessage::Flush() {
     data_->message_text_[data_->num_chars_to_log_++] = '\n';
   }
 
-  // Prevent any subtle race conditions by wrapping a mutex lock around
+  // Pravent any subtle race conditions by wrapping a mutex lock around
   // the actual logging action per se.
   {
     MutexLock l(&log_mutex);

@@ -34,7 +34,7 @@ namespace folly {
  * ("/foo/bar"), query ("key=foo") and fragment ("anchor").  The scheme is
  * lower-cased.
  *
- * If this Uri represents a URL, note that, to prevent ambiguity, the component
+ * If this Uri represents a URL, note that, to pravent ambiguity, the component
  * parts are NOT percent-decoded; you should do this yourself with
  * uriUnescape() (for the authority and path) and uriUnescape(...,
  * UriEscapeMode::QUERY) (for the query, but probably only after splitting at

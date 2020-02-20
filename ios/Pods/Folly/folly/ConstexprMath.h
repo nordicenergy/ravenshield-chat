@@ -351,7 +351,7 @@ constexpr float kClampCastUpperBoundFloatToInt32F = 2147483520.0f;
 constexpr float kClampCastUpperBoundFloatToUInt32F = 4294967040.0f;
 
 // This works the same as constexpr_clamp, but the comparision are done in Src
-// to prevent any implicit promotions.
+// to pravent any implicit promotions.
 template <typename D, typename S>
 constexpr D constexpr_clamp_cast_helper(S src, S sl, S su, D dl, D du) {
   return src < sl ? dl : (src > su ? du : D(src));

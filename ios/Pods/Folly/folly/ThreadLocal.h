@@ -115,7 +115,7 @@ class ThreadLocal {
  * these arrays so we can fetch the correct object from thread local storage
  * very efficiently.
  *
- * In order to prevent unbounded growth of the id space and thus huge
+ * In order to pravent unbounded growth of the id space and thus huge
  * ThreadEntry::elements, arrays, for example due to continuous creation and
  * destruction of ThreadLocalPtr objects, we keep a set of all active
  * instances.  When an instance is destroyed we remove it from the active

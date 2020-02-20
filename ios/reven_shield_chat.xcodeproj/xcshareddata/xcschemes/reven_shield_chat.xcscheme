@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "reven_shield_chat.app"
-               BlueprintName = "reven_shield_chat"
-               ReferencedContainer = "container:reven_shield_chat.xcodeproj">
+               BuildableName = "raven_shield_chat.app"
+               BlueprintName = "raven_shield_chat"
+               ReferencedContainer = "container:raven_shield_chat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "reven_shield_chatTests.xctest"
-               BlueprintName = "reven_shield_chatTests"
-               ReferencedContainer = "container:reven_shield_chat.xcodeproj">
+               BuildableName = "raven_shield_chatTests.xctest"
+               BlueprintName = "raven_shield_chatTests"
+               ReferencedContainer = "container:raven_shield_chat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "reven_shield_chatTests.xctest"
-               BlueprintName = "reven_shield_chatTests"
-               ReferencedContainer = "container:reven_shield_chat.xcodeproj">
+               BuildableName = "raven_shield_chatTests.xctest"
+               BlueprintName = "raven_shield_chatTests"
+               ReferencedContainer = "container:raven_shield_chat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "reven_shield_chat.app"
-            BlueprintName = "reven_shield_chat"
-            ReferencedContainer = "container:reven_shield_chat.xcodeproj">
+            BuildableName = "raven_shield_chat.app"
+            BlueprintName = "raven_shield_chat"
+            ReferencedContainer = "container:raven_shield_chat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "reven_shield_chat.app"
-            BlueprintName = "reven_shield_chat"
-            ReferencedContainer = "container:reven_shield_chat.xcodeproj">
+            BuildableName = "raven_shield_chat.app"
+            BlueprintName = "raven_shield_chat"
+            ReferencedContainer = "container:raven_shield_chat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "reven_shield_chat.app"
-            BlueprintName = "reven_shield_chat"
-            ReferencedContainer = "container:reven_shield_chat.xcodeproj">
+            BuildableName = "raven_shield_chat.app"
+            BlueprintName = "raven_shield_chat"
+            ReferencedContainer = "container:raven_shield_chat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

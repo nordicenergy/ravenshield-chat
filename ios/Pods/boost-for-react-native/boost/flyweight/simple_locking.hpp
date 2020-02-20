@@ -13,7 +13,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <boost/flyweight/detail/recursive_lw_mutex.hpp>
 #include <boost/flyweight/simple_locking_fwd.hpp>
 #include <boost/flyweight/locking_tag.hpp>

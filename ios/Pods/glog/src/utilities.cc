@@ -308,7 +308,7 @@ void DumpStackTraceToString(string* stacktrace) {
 }
 #endif
 
-// We use an atomic operation to prevent problems with calling CrashReason
+// We use an atomic operation to pravent problems with calling CrashReason
 // from inside the Mutex implementation (potentially through RAW_CHECK).
 static const CrashReason* g_reason = 0;
 

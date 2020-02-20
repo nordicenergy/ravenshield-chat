@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to RavenShield"
 
-@interface reven_shield_chatTests : XCTestCase
+@interface raven_shield_chatTests : XCTestCase
 
 @end
 
-@implementation reven_shield_chatTests
+@implementation raven_shield_chatTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

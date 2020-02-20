@@ -23,7 +23,7 @@
  * certainly the better choice, because letting the OS scheduler put a
  * thread to sleep is better for system responsiveness and throughput
  * than wasting a timeslice repeatedly querying a lock held by a
- * thread that's blocked, and you can't prevent userspace
+ * thread that's blocked, and you can't pravent userspace
  * programs blocking.
  *
  * Spinlocks in an operating system kernel make much more sense than

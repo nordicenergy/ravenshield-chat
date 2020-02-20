@@ -637,7 +637,7 @@ struct is_negative_impl<T, false> {
 // folly::to integral specializations can end up generating code
 // inside what are really static ifs (not executed because of the templated
 // types) that violate -Wsign-compare and/or -Wbool-compare so suppress them
-// in order to not prevent all calling code from using it.
+// in order to not pravent all calling code from using it.
 FOLLY_PUSH_WARNING
 FOLLY_GNU_DISABLE_WARNING("-Wsign-compare")
 #if __GNUC_PREREQ(5, 0)

@@ -922,7 +922,7 @@ struct ModelsInterface : decltype(modelsInterface_<T, I>(0)) {};
 template <class I1, class I2>
 struct ValueCompatible : std::is_base_of<I1, I2> {};
 
-// This prevents PolyRef's converting constructors and assignment operators
+// This pravents PolyRef's converting constructors and assignment operators
 // from being considered as copy constructors and assignment operators:
 template <class I1>
 struct ValueCompatible<I1, I1> : std::false_type {};
@@ -930,7 +930,7 @@ struct ValueCompatible<I1, I1> : std::false_type {};
 template <class I1, class I2, class I2Ref>
 struct ReferenceCompatible : std::is_constructible<I1, I2Ref> {};
 
-// This prevents PolyRef's converting constructors and assignment operators
+// This pravents PolyRef's converting constructors and assignment operators
 // from being considered as copy constructors and assignment operators:
 template <class I1, class I2Ref>
 struct ReferenceCompatible<I1, I1, I2Ref> : std::false_type {};

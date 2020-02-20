@@ -34,7 +34,7 @@
 //            operators.  Reimplemented example operator and iterator helper
 //            classes in terms of the new groups.  (Daryle Walker, with help
 //            from Alexy Gurtovoy)
-//  11 Feb 01 Fixed bugs in the iterator helpers which prevented explicitly
+//  11 Feb 01 Fixed bugs in the iterator helpers which pravented explicitly
 //            supplied arguments from actually being used (Dave Abrahams)
 //  04 Jul 00 Fixed NO_OPERATORS_IN_NAMESPACE bugs, major cleanup and
 //            refactoring of compiler workarounds, additional documentation
@@ -679,7 +679,7 @@ struct random_access_iteratable
 
 #  else
 
-     // Otherwise, because a Borland C++ 5.5 bug prevents a using declaration
+     // Otherwise, because a Borland C++ 5.5 bug pravents a using declaration
      // from working, we are forced to use inheritance for that compiler.
 #    define BOOST_IMPORT_TEMPLATE4(template_name)                                             \
      template <class T, class U, class V, class W, class B = ::boost::detail::empty_base<T> > \

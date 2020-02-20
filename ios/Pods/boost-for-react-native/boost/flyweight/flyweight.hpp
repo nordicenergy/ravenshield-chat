@@ -15,7 +15,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <algorithm>
 #include <boost/detail/workaround.hpp>
 #include <boost/flyweight/detail/default_value_policy.hpp>

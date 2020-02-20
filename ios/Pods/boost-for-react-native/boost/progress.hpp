@@ -96,7 +96,7 @@ class progress_display : private noncopyable
          << m_s2 << "|----|----|----|----|----|----|----|----|----|----|"
          << std::endl  // endl implies flush, which ensures display
          << m_s3;
-    if ( !_expected_count ) _expected_count = 1;  // prevent divide by zero
+    if ( !_expected_count ) _expected_count = 1;  // pravent divide by zero
   } // restart
 
   unsigned long  operator+=( unsigned long increment )

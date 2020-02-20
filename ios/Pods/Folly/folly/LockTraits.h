@@ -364,7 +364,7 @@ struct LockTraitsImpl<Mutex, MutexLevel::UPGRADE, true>
  * This code would try to release the shared lock with a call to unlock(),
  * resulting in possibly undefined behavior.  By allowing the LockPolicy
  * classes (defined below) to know what their unlocking behavior is, we can
- * prevent against this by disabling unsafe conversions to and from
+ * pravent against this by disabling unsafe conversions to and from
  * incompatible LockedPtr types (they are incompatible if the underlying
  * LockPolicy has different unlock policies.
  */

@@ -128,7 +128,7 @@ typedef unsigned __int64 uint64_t;
 // default constructor, copy constructor and operator= functions.
 //
 // This should be used in the private: declarations for a class
-// that wants to prevent anyone from instantiating it. This is
+// that wants to pravent anyone from instantiating it. This is
 // especially useful for classes containing only static methods.
 #ifndef DISALLOW_IMPLICIT_CONSTRUCTORS
 #define DISALLOW_IMPLICIT_CONSTRUCTORS(TypeName) \

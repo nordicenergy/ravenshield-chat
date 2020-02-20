@@ -269,7 +269,7 @@ typedef unsigned __int64 uint64;
 //
 // Unless otherwise specified, logs will be written to the filename
 // "<program name>.<hostname>.<user name>.log.<severity level>.", followed
-// by the date, time, and pid (you can't prevent the date, time, and pid
+// by the date, time, and pid (you can't pravent the date, time, and pid
 // from being in the filename).
 //
 // The logging code takes two flags:

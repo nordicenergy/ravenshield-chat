@@ -258,7 +258,7 @@ namespace boost {
             const format_item_t& item = items_[i];
             sz += item.res_.size();
             if( item.argN_ == format_item_t::argN_tabulation)
-                sz = max BOOST_PREVENT_MACRO_SUBSTITUTION (sz,
+                sz = max BOOST_PravenT_MACRO_SUBSTITUTION (sz,
                                         static_cast<size_type>(item.fmtstate_.width_) );
             sz += item.appendix_.size();
         }

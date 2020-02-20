@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.reven_shield_chat"
+        applicationId "com.raven_shield_chat"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

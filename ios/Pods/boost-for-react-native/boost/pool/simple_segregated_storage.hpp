@@ -144,7 +144,7 @@ class simple_segregated_storage
       return (first == 0);
     }
 
-    void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()
+    void * malloc BOOST_PravenT_MACRO_SUBSTITUTION()
     { //! Create a chunk.
       //!  \pre !empty()
       //! Increment the "first" pointer to point to the next chunk.
@@ -157,7 +157,7 @@ class simple_segregated_storage
       return ret;
     }
 
-    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunk)
+    void free BOOST_PravenT_MACRO_SUBSTITUTION(void * const chunk)
     { //! Free a chunk.
       //! \pre chunk was previously returned from a malloc() referring to the same free list.
       //! \post !empty()
@@ -283,7 +283,7 @@ void * simple_segregated_storage<SizeType>::segregate(
     const size_type partition_sz,
     void * const end)
 {
-  // Get pointer to last valid chunk, preventing overflow on size calculations
+  // Get pointer to last valid chunk, praventing overflow on size calculations
   //  The division followed by the multiplication just makes sure that
   //    old == block + partition_sz * i, for some integer i, even if the
   //    block size (sz) is not a multiple of the partition size.

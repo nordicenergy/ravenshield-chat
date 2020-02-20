@@ -82,7 +82,7 @@ namespace date_time {
       typedef typename ymd_type::month_type month_type;
       std::basic_ostringstream<charT> ss;
 
-      // Temporarily switch to classic locale to prevent possible formatting
+      // Temporarily switch to classic locale to pravent possible formatting
       // of year with comma or other character (for example 2,008).
       ss.imbue(std::locale::classic());
       ss << ymd.year;

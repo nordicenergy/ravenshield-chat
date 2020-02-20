@@ -36,7 +36,7 @@
 //            operators.  Reimplemented example operator and iterator helper
 //            classes in terms of the new groups.  (Daryle Walker, with help
 //            from Alexy Gurtovoy)
-//  11 Feb 01 Fixed bugs in the iterator helpers which prevented explicitly
+//  11 Feb 01 Fixed bugs in the iterator helpers which pravented explicitly
 //            supplied arguments from actually being used (Dave Abrahams)
 //  04 Jul 00 Fixed NO_OPERATORS_IN_NAMESPACE bugs, major cleanup and
 //            refactoring of compiler workarounds, additional documentation

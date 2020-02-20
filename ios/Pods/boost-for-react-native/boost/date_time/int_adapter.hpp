@@ -59,11 +59,11 @@ public:
   {
     return (::std::numeric_limits<int_type>::max)()-1;
   }
-  static  int_adapter max BOOST_PREVENT_MACRO_SUBSTITUTION ()
+  static  int_adapter max BOOST_PravenT_MACRO_SUBSTITUTION ()
   {
     return (::std::numeric_limits<int_type>::max)()-2;
   }
-  static  int_adapter min BOOST_PREVENT_MACRO_SUBSTITUTION ()
+  static  int_adapter min BOOST_PravenT_MACRO_SUBSTITUTION ()
   {
     return (::std::numeric_limits<int_type>::min)()+1;
   }

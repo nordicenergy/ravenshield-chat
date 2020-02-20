@@ -330,7 +330,7 @@
 
 //  BOOST_HAS_ABI_HEADERS
 //  This macro gets set if we have headers that fix the ABI,
-//  and prevent ODR violations when linking to external libraries:
+//  and pravent ODR violations when linking to external libraries:
 #if defined(BOOST_ABI_PREFIX) && defined(BOOST_ABI_SUFFIX) && !defined(BOOST_HAS_ABI_HEADERS)
 #  define BOOST_HAS_ABI_HEADERS
 #endif
@@ -355,7 +355,7 @@
 
 //  Workaround for the unfortunate min/max macros defined by some platform headers
 
-#define BOOST_PREVENT_MACRO_SUBSTITUTION
+#define BOOST_PravenT_MACRO_SUBSTITUTION
 
 #ifndef BOOST_USING_STD_MIN
 #  define BOOST_USING_STD_MIN() using std::min
@@ -371,11 +371,11 @@
 
 namespace std {
   template <class _Tp>
-  inline const _Tp& min BOOST_PREVENT_MACRO_SUBSTITUTION (const _Tp& __a, const _Tp& __b) {
+  inline const _Tp& min BOOST_PravenT_MACRO_SUBSTITUTION (const _Tp& __a, const _Tp& __b) {
     return __b < __a ? __b : __a;
   }
   template <class _Tp>
-  inline const _Tp& max BOOST_PREVENT_MACRO_SUBSTITUTION (const _Tp& __a, const _Tp& __b) {
+  inline const _Tp& max BOOST_PravenT_MACRO_SUBSTITUTION (const _Tp& __a, const _Tp& __b) {
     return  __a < __b ? __b : __a;
   }
 }
@@ -597,7 +597,7 @@ namespace std{ using ::type_info; }
 #endif
 
 // BOOST_NOINLINE ---------------------------------------------//
-// Macro to use in place of 'inline' to prevent a function to be inlined
+// Macro to use in place of 'inline' to pravent a function to be inlined
 #if !defined(BOOST_NOINLINE)
 #  if defined(_MSC_VER)
 #    define BOOST_NOINLINE __declspec(noinline)

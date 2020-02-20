@@ -100,7 +100,7 @@ namespace boost {
 ///
 /// @section UserGuide User's guide
 /// The Execution Monitor is designed to solve the problem of executing potentially dangerous function that may result in any number of error conditions,
-/// in monitored environment that should prevent any undesirable exceptions to propagate out of function call and produce consistent result report for all outcomes.
+/// in monitored environment that should pravent any undesirable exceptions to propagate out of function call and produce consistent result report for all outcomes.
 /// The Execution Monitor is able to produce informative report for all standard C++ exceptions and intrinsic types. All other exceptions are reported as unknown.
 /// If you prefer different message for your exception type or need to perform any action, the Execution Monitor supports custom exception translators.
 /// There are several other parameters of the monitored environment can be configured by setting appropriate properties of the Execution Monitor.

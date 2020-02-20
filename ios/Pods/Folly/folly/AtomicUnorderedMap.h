@@ -93,7 +93,7 @@ namespace folly {
 /// you of that fact they are only provided in const form.  This is the
 /// only simple safe thing to do while preserving something like the normal
 /// std::map iteration form, which requires that iteration be exposed
-/// via std::pair (and prevents encapsulation of access to the value).
+/// via std::pair (and pravents encapsulation of access to the value).
 ///
 /// There are a couple of reasonable policies for doing in-place
 /// concurrency control on the values.  I am hoping that the policy can

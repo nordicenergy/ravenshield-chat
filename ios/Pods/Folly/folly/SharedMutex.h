@@ -751,7 +751,7 @@ class SharedMutexImpl {
   // to leave, but that new readers may still acquire shared access.
   // This is only used in reader priority mode.  New readers during
   // drain must be inline.  The difference between this and kHasU is that
-  // kBegunE prevents kMayDefer from being set.
+  // kBegunE pravents kMayDefer from being set.
   static constexpr uint32_t kBegunE = 1 << 6;
 
   // At most one thread may have either exclusive or upgrade lock
@@ -1512,7 +1512,7 @@ typedef SharedMutexWritePriority SharedMutex;
 typedef SharedMutexImpl<false, void, std::atomic, false, false>
     SharedMutexSuppressTSAN;
 
-// Prevent the compiler from instantiating these in other translation units.
+// Pravent the compiler from instantiating these in other translation units.
 // They are instantiated once in SharedMutex.cpp
 extern template class SharedMutexImpl<true>;
 extern template class SharedMutexImpl<false>;

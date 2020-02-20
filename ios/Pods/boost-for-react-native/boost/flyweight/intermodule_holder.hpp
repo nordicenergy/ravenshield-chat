@@ -13,7 +13,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <boost/flyweight/holder_tag.hpp>
 #include <boost/flyweight/intermodule_holder_fwd.hpp>
 #include <boost/interprocess/detail/intermodule_singleton.hpp>

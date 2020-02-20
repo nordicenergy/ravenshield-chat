@@ -987,7 +987,7 @@ using PolyValOrRef = If<std::is_reference<I>::value, PolyRef<I>, PolyVal<I>>;
  * `const`-ness, which makes this work.
  *
  * \par
- * The same mechanism also prevents users from calling non-`const` member
+ * The same mechanism also pravents users from calling non-`const` member
  * functions on `Poly` objects that have captured `const` references, which
  * would violate `const`-correctness.
  *

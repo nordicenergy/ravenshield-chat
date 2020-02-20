@@ -109,7 +109,7 @@ class object_pool: protected pool<UserAllocator>
     ~object_pool();
 
     // Returns 0 if out-of-memory.
-    element_type * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()
+    element_type * malloc BOOST_PravenT_MACRO_SUBSTITUTION()
     { //! Allocates memory that can hold one object of type ElementType.
       //!
       //! If out of memory, returns 0. 
@@ -117,7 +117,7 @@ class object_pool: protected pool<UserAllocator>
       //! Amortized O(1).
       return static_cast<element_type *>(store().ordered_malloc());
     }
-    void free BOOST_PREVENT_MACRO_SUBSTITUTION(element_type * const chunk)
+    void free BOOST_PravenT_MACRO_SUBSTITUTION(element_type * const chunk)
     { //! De-Allocates memory that holds a chunk of type ElementType.
       //!
       //!  Note that p may not be 0.\n

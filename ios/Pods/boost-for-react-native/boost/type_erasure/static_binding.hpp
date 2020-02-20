@@ -24,7 +24,7 @@ template<class Map>
 struct static_binding {};
 
 /**
- * A convenience function to prevent constructor calls
+ * A convenience function to pravent constructor calls
  * from being parsed as function declarations.
  */
 template<class Map>

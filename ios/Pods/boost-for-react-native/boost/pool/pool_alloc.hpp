@@ -46,7 +46,7 @@ with the exception of the first parameter T, whose size is used instead.
 
 Since the size of T is used to determine the type of the underlying Pool,
 each allocator for different types of the same size will share the same underlying pool.
-The tag class prevents pools from being shared between pool_allocator and fast_pool_allocator.
+The tag class pravents pools from being shared between pool_allocator and fast_pool_allocator.
 For example, on a system where
 <tt>sizeof(int) == sizeof(void *)</tt>, <tt>pool_allocator<int></tt> and <tt>pool_allocator<void *></tt>
 will both allocate/deallocate from/to the same pool.

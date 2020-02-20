@@ -13,7 +13,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <boost/flyweight/assoc_container_factory_fwd.hpp>
 #include <boost/flyweight/detail/is_placeholder_expr.hpp>
 #include <boost/flyweight/detail/nested_xxx_if_not_ph.hpp>

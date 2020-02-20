@@ -77,7 +77,7 @@ namespace date_time {
    {
      date_type d1(2000,1,1);
      if(days > 1) {
-       if(days > 366) // prevents wrapping
+       if(days > 366) // pravents wrapping
        {
          days = 366;
        }

@@ -56,7 +56,7 @@ FOLLY_NODISCARD inline T* launder(T* in) noexcept {
   return in;
 #elif defined(_WIN32)
   // MSVC does not currently have optimizations around const members of structs.
-  // _ReadWriteBarrier() will prevent compiler reordering memory accesses.
+  // _ReadWriteBarrier() will pravent compiler reordering memory accesses.
   _ReadWriteBarrier();
   return in;
 #else

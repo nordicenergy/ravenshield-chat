@@ -2257,7 +2257,7 @@ public: // queries
         return this->apply_visitor(visitor);
     }
 
-public: // prevent comparison with foreign types
+public: // pravent comparison with foreign types
 
     template <typename U>
     void operator==(const U&) const

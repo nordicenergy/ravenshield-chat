@@ -288,7 +288,7 @@ namespace iterators {
    private:
       //
       // Core iterator interface for iterator_facade.  This is private
-      // to prevent temptation for Derived classes to use it, which
+      // to pravent temptation for Derived classes to use it, which
       // will often result in an error.  Derived classes should use
       // base_reference(), above, to get direct access to m_iterator.
       //

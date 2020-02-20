@@ -92,11 +92,11 @@ struct default_user_allocator_new_delete
   typedef std::size_t size_type; //!< An unsigned integral type that can represent the size of the largest object to be allocated.
   typedef std::ptrdiff_t difference_type; //!< A signed integral type that can represent the difference of any two pointers.
 
-  static char * malloc BOOST_PREVENT_MACRO_SUBSTITUTION(const size_type bytes)
+  static char * malloc BOOST_PravenT_MACRO_SUBSTITUTION(const size_type bytes)
   { //! Attempts to allocate n bytes from the system. Returns 0 if out-of-memory
     return new (std::nothrow) char[bytes];
   }
-  static void free BOOST_PREVENT_MACRO_SUBSTITUTION(char * const block)
+  static void free BOOST_PravenT_MACRO_SUBSTITUTION(char * const block)
   { //! Attempts to de-allocate block.
     //! \pre Block must have been previously returned from a call to UserAllocator::malloc.
     delete [] block;
@@ -111,9 +111,9 @@ struct default_user_allocator_malloc_free
   typedef std::size_t size_type; //!< An unsigned integral type that can represent the size of the largest object to be allocated.
   typedef std::ptrdiff_t difference_type; //!< A signed integral type that can represent the difference of any two pointers.
 
-  static char * malloc BOOST_PREVENT_MACRO_SUBSTITUTION(const size_type bytes)
+  static char * malloc BOOST_PravenT_MACRO_SUBSTITUTION(const size_type bytes)
   { return static_cast<char *>((std::malloc)(bytes)); }
-  static void free BOOST_PREVENT_MACRO_SUBSTITUTION(char * const block)
+  static void free BOOST_PravenT_MACRO_SUBSTITUTION(char * const block)
   { (std::free)(block); }
 };
 
@@ -419,7 +419,7 @@ class pool: protected simple_segregated_storage < typename UserAllocator::size_t
     //  free chunks.  Only if we need to get another memory block do we call
     //  the non-inlined *_need_resize() functions.
     // Returns 0 if out-of-memory
-    void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()
+    void * malloc BOOST_PravenT_MACRO_SUBSTITUTION()
     { //! Allocates a chunk of memory. Searches in the list of memory blocks
       //! for a block that has a free chunk, and returns that free chunk if found.
       //! Otherwise, creates a new memory block, adds its free list to pool's free list,
@@ -450,7 +450,7 @@ class pool: protected simple_segregated_storage < typename UserAllocator::size_t
 
     // pre: 'chunk' must have been previously
     //        returned by *this.malloc().
-    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunk)
+    void free BOOST_PravenT_MACRO_SUBSTITUTION(void * const chunk)
     { //!   Deallocates a chunk of memory. Note that chunk may not be 0. O(1).
       //!
       //! Chunk must have been previously returned by t.malloc() or t.ordered_malloc().
@@ -473,7 +473,7 @@ class pool: protected simple_segregated_storage < typename UserAllocator::size_t
 
     // pre: 'chunk' must have been previously
     //        returned by *this.malloc(n).
-    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunks, const size_type n)
+    void free BOOST_PravenT_MACRO_SUBSTITUTION(void * const chunks, const size_type n)
     { //! Assumes that chunk actually refers to a block of chunks.
       //!
       //! chunk must have been previously returned by t.ordered_malloc(n)
@@ -710,7 +710,7 @@ void * pool<UserAllocator>::malloc_need_resize()
   if(!max_size)
     next_size <<= 1;
   else if( next_size*partition_size/requested_size < max_size)
-    next_size = min BOOST_PREVENT_MACRO_SUBSTITUTION(next_size << 1, max_size*requested_size/ partition_size);
+    next_size = min BOOST_PravenT_MACRO_SUBSTITUTION(next_size << 1, max_size*requested_size/ partition_size);
 
   //  initialize it,
   store().add_block(node.begin(), node.element_size(), partition_size);
@@ -750,7 +750,7 @@ void * pool<UserAllocator>::ordered_malloc_need_resize()
   if(!max_size)
     next_size <<= 1;
   else if( next_size*partition_size/requested_size < max_size)
-    next_size = min BOOST_PREVENT_MACRO_SUBSTITUTION(next_size << 1, max_size*requested_size/ partition_size);
+    next_size = min BOOST_PravenT_MACRO_SUBSTITUTION(next_size << 1, max_size*requested_size/ partition_size);
 
   //  initialize it,
   //  (we can use "add_block" here because we know that
@@ -812,7 +812,7 @@ void * pool<UserAllocator>::ordered_malloc(const size_type n)
 
   // Not enough memory in our storages; make a new storage,
   BOOST_USING_STD_MAX();
-  next_size = max BOOST_PREVENT_MACRO_SUBSTITUTION(next_size, num_chunks);
+  next_size = max BOOST_PravenT_MACRO_SUBSTITUTION(next_size, num_chunks);
   size_type POD_size = static_cast<size_type>(next_size * partition_size +
       integer::static_lcm<sizeof(size_type), sizeof(void *)>::value + sizeof(size_type));
   char * ptr = (UserAllocator::malloc)(POD_size);
@@ -823,7 +823,7 @@ void * pool<UserAllocator>::ordered_malloc(const size_type n)
         // Try again with just enough memory to do the job, or at least whatever we
         // allocated last time:
         next_size >>= 1;
-        next_size = max BOOST_PREVENT_MACRO_SUBSTITUTION(next_size, num_chunks);
+        next_size = max BOOST_PravenT_MACRO_SUBSTITUTION(next_size, num_chunks);
         POD_size = static_cast<size_type>(next_size * partition_size +
             integer::static_lcm<sizeof(size_type), sizeof(void *)>::value + sizeof(size_type));
         ptr = (UserAllocator::malloc)(POD_size);
@@ -842,7 +842,7 @@ void * pool<UserAllocator>::ordered_malloc(const size_type n)
   if(!max_size)
     next_size <<= 1;
   else if( next_size*partition_size/requested_size < max_size)
-    next_size = min BOOST_PREVENT_MACRO_SUBSTITUTION(next_size << 1, max_size*requested_size/ partition_size);
+    next_size = min BOOST_PravenT_MACRO_SUBSTITUTION(next_size << 1, max_size*requested_size/ partition_size);
 
   //  insert it into the list,
   //   handle border case.
@@ -950,7 +950,7 @@ public:
   {
      return chunk_size;
   }
-  void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()
+  void * malloc BOOST_PravenT_MACRO_SUBSTITUTION()
   {
      void* ret;
      if(free_list.empty())
@@ -979,7 +979,7 @@ public:
      used_list.insert(ret);
      return ret;
   }
-  void free BOOST_PREVENT_MACRO_SUBSTITUTION(void *const chunk)
+  void free BOOST_PravenT_MACRO_SUBSTITUTION(void *const chunk)
   {
      BOOST_ASSERT(used_list.count(chunk) == 1);
      BOOST_ASSERT(free_list.count(chunk) == 0);
@@ -991,7 +991,7 @@ public:
   {
      return (this->free)(chunk);
   }
-  void free BOOST_PREVENT_MACRO_SUBSTITUTION(void *const chunk, const size_type)
+  void free BOOST_PravenT_MACRO_SUBSTITUTION(void *const chunk, const size_type)
   {
      BOOST_ASSERT(used_list.count(chunk) == 1);
      BOOST_ASSERT(free_list.count(chunk) == 0);

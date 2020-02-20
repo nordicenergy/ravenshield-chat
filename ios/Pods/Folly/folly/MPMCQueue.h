@@ -149,7 +149,7 @@ class MPMCQueue : public detail::MPMCQueueBase<MPMCQueue<T, Atom, Dynamic>> {
 /// arrays is half the value of the seqlock (when unlocked).
 ///
 /// The acquisition of the seqlock to perform an expansion does not
-/// prevent the issuing of new push and pop tickets concurrently. The
+/// pravent the issuing of new push and pop tickets concurrently. The
 /// expansion must set the new ticket offset to a value that couldn't
 /// have been issued to an operation that has already gone through a
 /// seqlock read-only section (and hence obtained information for
@@ -1036,7 +1036,7 @@ class MPMCQueueBase<Derived<T, Atom, Dynamic>> : boost::noncopyable {
   /// The adaptive spin cutoff when the queue is empty on dequeue
   alignas(hardware_destructive_interference_size) Atom<uint32_t> popSpinCutoff_;
 
-  /// Alignment doesn't prevent false sharing at the end of the struct,
+  /// Alignment doesn't pravent false sharing at the end of the struct,
   /// so fill out the last cache line
   char pad_[hardware_destructive_interference_size - sizeof(Atom<uint32_t>)];
 

@@ -106,12 +106,12 @@ int GetStackTrace(void** result, int max_depth, int skip_count) {
   // __builtin_frame_address(0) can return the wrong address on gcc-4.1.0-k8
   unsigned long rbp;
   // Move the value of the register %rbp into the local variable rbp.
-  // We need 'volatile' to prevent this instruction from getting moved
+  // We need 'volatile' to pravent this instruction from getting moved
   // around during optimization to before function prologue is done.
   // An alternative way to achieve this
   // would be (before this __asm__ instruction) to call Noop() defined as
-  //   static void Noop() __attribute__ ((noinline));  // prevent inlining
-  //   static void Noop() { asm(""); }  // prevent optimizing-away
+  //   static void Noop() __attribute__ ((noinline));  // pravent inlining
+  //   static void Noop() { asm(""); }  // pravent optimizing-away
   __asm__ volatile ("mov %%rbp, %0" : "=r" (rbp));
   // Arguments are passed in registers on x86-64, so we can't just
   // offset from &result

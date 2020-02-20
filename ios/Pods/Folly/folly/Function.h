@@ -618,7 +618,7 @@ class Function final : private detail::function::FunctionTraits<FunctionType> {
    * signature matches (i.e. it returns an object convertible to `R` when called
    * with `Args...`).
    *
-   * \note `typename Traits::template ResultOf<Fun>` prevents this overload
+   * \note `typename Traits::template ResultOf<Fun>` pravents this overload
    * from being selected by overload resolution when `fun` is not a compatible
    * function.
    *
@@ -661,7 +661,7 @@ class Function final : private detail::function::FunctionTraits<FunctionType> {
   template <
       typename Member,
       typename Class,
-      // Prevent this overload from being selected when `ptr` is not a
+      // Pravent this overload from being selected when `ptr` is not a
       // compatible member function pointer.
       typename = decltype(Function(std::mem_fn((Member Class::*)0)))>
   /* implicit */ Function(Member Class::*ptr) noexcept {
@@ -712,7 +712,7 @@ class Function final : private detail::function::FunctionTraits<FunctionType> {
    * Assigns a callable object to this `Function`. If the operation fails,
    * `*this` is left unmodified.
    *
-   * \note `typename = decltype(Function(std::declval<Fun>()))` prevents this
+   * \note `typename = decltype(Function(std::declval<Fun>()))` pravents this
    * overload from being selected by overload resolution when `fun` is not a
    * compatible function.
    */
@@ -756,7 +756,7 @@ class Function final : private detail::function::FunctionTraits<FunctionType> {
    */
   template <typename Member, typename Class>
   auto operator=(Member Class::*ptr) noexcept
-      // Prevent this overload from being selected when `ptr` is not a
+      // Pravent this overload from being selected when `ptr` is not a
       // compatible member function pointer.
       -> decltype(operator=(std::mem_fn(ptr))) {
     return ptr ? (*this = std::mem_fn(ptr)) : (*this = Function());

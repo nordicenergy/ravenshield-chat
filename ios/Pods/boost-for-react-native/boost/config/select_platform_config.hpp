@@ -10,7 +10,7 @@
 
 // locate which platform we are on and define BOOST_PLATFORM_CONFIG as needed.
 // Note that we define the headers to include using "header_name" not
-// <header_name> in order to prevent macro expansion within the header
+// <header_name> in order to pravent macro expansion within the header
 // name (for example "linux" is a macro on linux systems).
 
 #if (defined(linux) || defined(__linux) || defined(__linux__) || defined(__GNU__) || defined(__GLIBC__)) && !defined(_CRAYC)

@@ -163,7 +163,7 @@ void bulk_insert(
     Vector& cont,
     InputIterator first,
     InputIterator last) {
-  // prevent deref of middle where middle == cont.end()
+  // pravent deref of middle where middle == cont.end()
   if (first == last) {
     return;
   }

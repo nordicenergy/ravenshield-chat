@@ -13,7 +13,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <boost/parameter/parameters.hpp>
 #include <boost/type_traits/is_base_and_derived.hpp>
 

@@ -896,7 +896,7 @@ inline dynamic dynamic::merge(
     const dynamic& mergeObj2) {
   // No checks on type needed here because they are done in update_missing
   // Note that we do update_missing here instead of update() because
-  // it will prevent the extra writes that would occur with update()
+  // it will pravent the extra writes that would occur with update()
   auto ret = mergeObj2;
   ret.update_missing(mergeObj1);
   return ret;

@@ -272,7 +272,7 @@
 		4A66EC92A6F217971BC5F3E575F1997B /* RCTNetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A28B0C4E3B8742F6B30254DF1D999A0 /* RCTNetInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A9414E93BD3703FCFCA274C46384138 /* RCTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A37589B65353BFA32FCAF5EBAC0C308E /* RCTImageView.m */; };
 		4B10D6C043CE76538770FCC3550A9F67 /* RCTTextShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8F20306E9500A2948CE91FD61396CF /* RCTTextShadowView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B3488F749EED7EF916BEA16B6B9A5A5 /* RCTPointerEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = C00CCCF4E3A7F8563F11AB34D0D55CD5 /* RCTPointerEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B3488F749EED7EF916BEA16B6B9A5A5 /* RCTPointeravents.h in Headers */ = {isa = PBXBuildFile; fileRef = C00CCCF4E3A7F8563F11AB34D0D55CD5 /* RCTPointeravents.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B68C390C355778468912000A6800D26 /* JSModulesUnbundle.h in Headers */ = {isa = PBXBuildFile; fileRef = BF09DA314F81EC3D1260AA658D089ACE /* JSModulesUnbundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4BDDEE1B549BB9E67307A6732C832C21 /* RCTSafeAreaViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEFBD1A84A838BB05B91CAFDD38DB4 /* RCTSafeAreaViewManager.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		4C7100D31DAB21C94C9C6F2FA818B8FC /* NSTextStorage+FontScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D7F0D32385682D2C82FE33C122341 /* NSTextStorage+FontScaling.m */; };
@@ -306,7 +306,7 @@
 		57FFE2C716B336FF876F6C49240444A8 /* ModuleRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7FFFC14682096AF280929973CFF8E5C /* ModuleRegistry.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		582E7546B38319D0BA4252F9F346CF89 /* RCTConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6946D9CA81B1125BC523D7BA737BCC76 /* RCTConvert.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		593332624F9164F4F635B9DC2AE102DB /* RCTUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 385240B24EE55310A54115D1659CA4F5 /* RCTUIManager.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
-		59B37F46A33BF49CE371611F96A4305A /* Pods-reven_shield_chat-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3092BE0F47DF034CE891F45F96B5C /* Pods-reven_shield_chat-tvOS-dummy.m */; };
+		59B37F46A33BF49CE371611F96A4305A /* Pods-raven_shield_chat-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3092BE0F47DF034CE891F45F96B5C /* Pods-raven_shield_chat-tvOS-dummy.m */; };
 		59D018BE18A318B96852DB2E91E575E6 /* React-RCTAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 819991905354CD2E42C666B78BA7843F /* React-RCTAnimation-dummy.m */; };
 		59EB1A99722546E787C32C975E3D8346 /* RCTI18nManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF563F68162479F25A29A5278B05393 /* RCTI18nManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59F4F1342FDFFF46569F6E4C12B4E65A /* RCTWebSocketExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 687092C676106FA168F0EC317E2E9AA6 /* RCTWebSocketExecutor.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -374,7 +374,7 @@
 		745CA9D78906A77840D6F266FA495729 /* RCTImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2982137B7F739959E21A81592FB97654 /* RCTImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		74A789173ED9EB830DA6DA6B1C37036B /* RCTSafeAreaViewLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = A741A42FE184FDDC6048116264864946 /* RCTSafeAreaViewLocalData.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		76B76DEF15BFBC5F8813D1EED1DF98DD /* RCTEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10153E95E30D85F23519E80D643457 /* RCTEventEmitter.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
-		7842721E19ED12FF7E1D2A25F79F9C1A /* Pods-reven_shield_chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D81027C01E2DF2990FB92CF3A2275C /* Pods-reven_shield_chat-dummy.m */; };
+		7842721E19ED12FF7E1D2A25F79F9C1A /* Pods-raven_shield_chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D81027C01E2DF2990FB92CF3A2275C /* Pods-raven_shield_chat-dummy.m */; };
 		787960B14AA58476248C5C49E24CD310 /* JSBundleType.h in Headers */ = {isa = PBXBuildFile; fileRef = 116492FFBFC4B3F19FEEABC26AA18B6A /* JSBundleType.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7954E4E69F110D651ECE169B652E7C21 /* bignum.cc in Sources */ = {isa = PBXBuildFile; fileRef = 48F2864485F008730716D49FFAA52CE4 /* bignum.cc */; settings = {COMPILER_FLAGS = "-Wno-unreachable-code"; }; };
 		7A3CA2E07BBDAA0F4284E6B44F1ABCBF /* RCTModalHostViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 471566B72782FD724D09B674E4FBB90E /* RCTModalHostViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -396,7 +396,7 @@
 		81E07DC40A3D5FD65E5C8417CA28C8C3 /* RCTFileReaderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 860196853C73C1BAD54F791B586E7AEA /* RCTFileReaderModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		83093481DAB784A9C9A40F1D67248B62 /* RCTSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB69457D84D68418C5275253C159D17 /* RCTSurface.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		836AF0719180B60DF83DFD21EA00C34D /* RCTRootContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AB5508E378A0903CA6885AAC3AF1F9 /* RCTRootContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		849E6310BB2D58D43C1AAC0D96175EE9 /* Pods-reven_shield_chatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3DA49F4515764211317ABD339E7ACF /* Pods-reven_shield_chatTests-dummy.m */; };
+		849E6310BB2D58D43C1AAC0D96175EE9 /* Pods-raven_shield_chatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3DA49F4515764211317ABD339E7ACF /* Pods-raven_shield_chatTests-dummy.m */; };
 		84A5949021E42ADE6DA26A4E789E1A92 /* TurboModuleUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8412CE53E66C5B901C3A0CFD47A3ECD /* TurboModuleUtils.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		854CF0D927A05041B9EA053336504DCA /* RCTBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBFBEA66244844291BC5DE9090A85F /* RCTBridge.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		856CD85645E776FF4FCA9BA204268D28 /* RCTRawTextViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 603DC037F8233D9D8F4CC5B656EA85CF /* RCTRawTextViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -527,7 +527,7 @@
 		BA3FC11A7C0C6E05CCD7A3FC12B22217 /* RCTRedBoxExtraDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16A3E2D70BA0022A4E5FDFEB88F1781 /* RCTRedBoxExtraDataViewController.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"; }; };
 		BB432B83FB526D706635D2C548CF8706 /* RCTAnimationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5DDFAA43D0F82758B53640C9686209 /* RCTAnimationUtils.m */; };
 		BC078CE9778D7673FDA393A34CCD0620 /* RCTUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4D1C23A2EBF2AD207587AABEAFFBAB /* RCTUITextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD205941EB1EFAA65C512F7E84CB87D9 /* Pods-reven_shield_chat-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560EC1D60FEF99F139C000065DEC9DDF /* Pods-reven_shield_chat-tvOSTests-dummy.m */; };
+		BD205941EB1EFAA65C512F7E84CB87D9 /* Pods-raven_shield_chat-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560EC1D60FEF99F139C000065DEC9DDF /* Pods-raven_shield_chat-tvOSTests-dummy.m */; };
 		BDB5F68236AB56CC52E2222CF21E9F0F /* RCTBaseTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215476162691C910D9EEADE9D1065891 /* RCTBaseTextInputView.m */; };
 		BEB36E500C7AD02AAB33B43BF82553C1 /* RCTFrameUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EA8ED2D7C6000EAF9A894C4D23A123 /* RCTFrameUpdate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BEC1052E6EC8BDA846B649FFD43F6826 /* cached-powers.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FDE2BC9F3B55AB387A25B772635350 /* cached-powers.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -872,7 +872,7 @@
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 54E4BAC446FE2C7E299FC73833E1CC09;
-			remoteInfo = "Pods-reven_shield_chat-tvOS";
+			remoteInfo = "Pods-raven_shield_chat-tvOS";
 		};
 		3D875E0025C66A1FF2AD4B81ADE8AB1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -921,7 +921,7 @@
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A936919F72B3AAA8BD51CDD44A7B5658;
-			remoteInfo = "Pods-reven_shield_chat";
+			remoteInfo = "Pods-raven_shield_chat";
 		};
 		50B64EDB1396A9A4103C2C868FB8CEA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1462,7 +1462,7 @@
 		1532FB09B9DDDE57059E164EB39D9C4F /* RCTSafeAreaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSafeAreaView.h; sourceTree = "<group>"; };
 		15DB45D2B875D4E9233B45C3144C394F /* RCTFPSGraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTFPSGraph.m; sourceTree = "<group>"; };
 		15DFA5A253E21D33163D455F90694970 /* RCTRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootView.m; sourceTree = "<group>"; };
-		1670B32F3EDD0494EA5F3E68BA4764B6 /* libPods-reven_shield_chatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-reven_shield_chatTests.a"; path = "libPods-reven_shield_chatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1670B32F3EDD0494EA5F3E68BA4764B6 /* libPods-raven_shield_chatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-raven_shield_chatTests.a"; path = "libPods-raven_shield_chatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DD4068DFF173700BE9E654BF257A7D /* jsi.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = jsi.cpp; sourceTree = "<group>"; };
 		17F5F47085D4CA71B21FF40BF348A54A /* RCTSettingsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTSettingsManager.h; path = Libraries/Settings/RCTSettingsManager.h; sourceTree = "<group>"; };
 		18EECDAEA4FC7AF50F48BA9F30C55529 /* RCTViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTViewManager.m; sourceTree = "<group>"; };
@@ -1511,7 +1511,7 @@
 		2937E913922B386DC830F913F7818D9D /* UIView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Private.h"; sourceTree = "<group>"; };
 		29567C629BC0B63DBED794D4677FE9D6 /* RCTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLog.h; sourceTree = "<group>"; };
 		2982137B7F739959E21A81592FB97654 /* RCTImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageCache.h; path = Libraries/Image/RCTImageCache.h; sourceTree = "<group>"; };
-		2A816DDAC90D3E88B5A763DB884D49C2 /* Pods-reven_shield_chat-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reven_shield_chat-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A816DDAC90D3E88B5A763DB884D49C2 /* Pods-raven_shield_chat-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-raven_shield_chat-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2ADDBEA424E75059D7D7BA3AD948B74F /* RCTSurfaceHostingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSurfaceHostingView.h; sourceTree = "<group>"; };
 		2B1147503A822A4DA246AE2BC40751E4 /* TurboCxxModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TurboCxxModule.h; path = turbomodule/core/TurboCxxModule.h; sourceTree = "<group>"; };
 		2B855C7E1BC323023CFDFECF3F7894D4 /* RCTNetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNetInfo.m; sourceTree = "<group>"; };
@@ -1523,7 +1523,7 @@
 		2D2CFD275FEED5E1D65BE9F7A9042BFE /* RCTSegmentedControlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSegmentedControlManager.h; sourceTree = "<group>"; };
 		2D31C0BB40850D3021736BDC4E119FC6 /* RCTNativeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNativeModule.h; sourceTree = "<group>"; };
 		2D6B9A2DCC5354384E1F3D7A09DE97F0 /* RCTResizeMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTResizeMode.h; path = Libraries/Image/RCTResizeMode.h; sourceTree = "<group>"; };
-		2E082F362254A60CEA68052F2D36E495 /* Pods-reven_shield_chat-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chat-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E082F362254A60CEA68052F2D36E495 /* Pods-raven_shield_chat-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chat-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E6EFE5CD204F21B05CE2173BDD5BFB4 /* React-jsiexecutor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-jsiexecutor.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2ECA448B0DE20A24B7A0A5E2137F0662 /* RCTRefreshControlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRefreshControlManager.h; sourceTree = "<group>"; };
 		2FC04265A0071AAC19E7EF47FB1168ED /* RCTUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUtils.h; sourceTree = "<group>"; };
@@ -1566,7 +1566,7 @@
 		3AC212B81241772595804D4BA03ED9E9 /* RCTScrollContentShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollContentShadowView.h; sourceTree = "<group>"; };
 		3B3BACD24E52D613788C538DE4D24DB0 /* RCTImageDataDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageDataDecoder.h; path = Libraries/Image/RCTImageDataDecoder.h; sourceTree = "<group>"; };
 		3B6F09A4E06D68D0F0733FB53DD67003 /* jsi-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jsi-inl.h"; sourceTree = "<group>"; };
-		3BCDBD8B3C317C62543169FDD53C80BD /* Pods-reven_shield_chat-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reven_shield_chat-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BCDBD8B3C317C62543169FDD53C80BD /* Pods-raven_shield_chat-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-raven_shield_chat-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BDC7858134794224CEE01024B7192AC /* RCTModuleData.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTModuleData.mm; sourceTree = "<group>"; };
 		3BDEE360FE380F131F9D9FE437D71EF3 /* RCTWrapperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTWrapperViewController.m; sourceTree = "<group>"; };
 		3BF56F00E423DB54A4B116D32B469A56 /* RCTJSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJSStackFrame.h; sourceTree = "<group>"; };
@@ -1602,7 +1602,7 @@
 		45547BE6390736AED3A252B6F8C59E11 /* RCTImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTImageView.h; path = Libraries/Image/RCTImageView.h; sourceTree = "<group>"; };
 		455C905A60462FEA87968F14D9CCAD71 /* Unicode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Unicode.cpp; path = folly/Unicode.cpp; sourceTree = "<group>"; };
 		45794C0514EC0217C16249E968687F67 /* RCTNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTNetworking.h; path = Libraries/Network/RCTNetworking.h; sourceTree = "<group>"; };
-		45A7E52A0534FDB09AF7D6B62593457E /* Pods-reven_shield_chat-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chat-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		45A7E52A0534FDB09AF7D6B62593457E /* Pods-raven_shield_chat-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chat-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		45E780E75FB0C98183D0F7713D57353B /* RCTTypedModuleConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTypedModuleConstants.h; sourceTree = "<group>"; };
 		4648D575C2DDA1933F61FA0B4F1AEAEE /* RCTRootViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootViewInternal.h; sourceTree = "<group>"; };
 		46EB4BBB0C3ECBC1A0C9F4B53DDFC7EC /* experiments-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "experiments-inl.h"; sourceTree = "<group>"; };
@@ -1618,7 +1618,7 @@
 		4A65832BD774C014CBA1965EDE268F18 /* signalhandler.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = signalhandler.cc; path = src/signalhandler.cc; sourceTree = "<group>"; };
 		4A7DA9F12DD85156CDE85D1385F7E96C /* RCTCxxMethod.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTCxxMethod.mm; sourceTree = "<group>"; };
 		4B60E411118DF82B740D4A68CD119DF0 /* React-RCTLinking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-RCTLinking.xcconfig"; sourceTree = "<group>"; };
-		4B7B837CE32E53F7636BA24C33E04388 /* Pods-reven_shield_chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reven_shield_chat-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B7B837CE32E53F7636BA24C33E04388 /* Pods-raven_shield_chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-raven_shield_chat-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B89309732B73CBE1DE6F44B482AF9D6 /* CoreModulesPlugins.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CoreModulesPlugins.mm; sourceTree = "<group>"; };
 		4BDF1E14E6C796B4881973C1834848B4 /* RCTAnimationDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAnimationDriver.h; sourceTree = "<group>"; };
 		4C063333193AE89AB3406532963F1E3F /* React-jsi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-jsi.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -1647,8 +1647,8 @@
 		54F3CB05491EACA78CD2BAD51592654C /* RCTAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAssert.m; sourceTree = "<group>"; };
 		54F5715304060163DA814E95F4B9BDD0 /* RCTCxxMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTCxxMethod.h; sourceTree = "<group>"; };
 		5506189D967BB06749B3B0E48DD9DB87 /* String.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = String.cpp; path = folly/String.cpp; sourceTree = "<group>"; };
-		560EC1D60FEF99F139C000065DEC9DDF /* Pods-reven_shield_chat-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reven_shield_chat-tvOSTests-dummy.m"; sourceTree = "<group>"; };
-		5665103046CD5C6F45B7048306AB7FD1 /* Pods-reven_shield_chat-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reven_shield_chat-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		560EC1D60FEF99F139C000065DEC9DDF /* Pods-raven_shield_chat-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-raven_shield_chat-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		5665103046CD5C6F45B7048306AB7FD1 /* Pods-raven_shield_chat-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-raven_shield_chat-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5694DB9ECD16204FBA9A86F5389C7A37 /* React-RCTNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "React-RCTNetwork.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56E9EFCB3A669FDBF08994E24858307D /* React-RCTAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-RCTAnimation.xcconfig"; sourceTree = "<group>"; };
 		5714438D77B32F6A00BC7A505BE781C1 /* RCTRootContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTRootContentView.m; sourceTree = "<group>"; };
@@ -1703,7 +1703,7 @@
 		6946D9CA81B1125BC523D7BA737BCC76 /* RCTConvert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTConvert.m; sourceTree = "<group>"; };
 		6984C32BA9C77C9657B377D48C9998E6 /* RCTDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDisplayLink.h; sourceTree = "<group>"; };
 		69EE0B8941F1A9CAFF22BDC963118687 /* React-RCTNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "React-RCTNetwork-dummy.m"; sourceTree = "<group>"; };
-		6A7A1EEE21B5CCABCD17CDE9C8CA783F /* libPods-reven_shield_chat-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-reven_shield_chat-tvOS.a"; path = "libPods-reven_shield_chat-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7A1EEE21B5CCABCD17CDE9C8CA783F /* libPods-raven_shield_chat-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-raven_shield_chat-tvOS.a"; path = "libPods-raven_shield_chat-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AABD7181EA87FBB810207DBC9667B4C /* F14Table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = F14Table.cpp; path = folly/container/detail/F14Table.cpp; sourceTree = "<group>"; };
 		6B481A18A8F865BF5F3585232C27085D /* RCTSinglelineTextInputViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSinglelineTextInputViewManager.m; sourceTree = "<group>"; };
 		6B5A7EDB64E4A79F5966E55D2DFB323D /* log.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = log.cpp; path = yoga/log.cpp; sourceTree = "<group>"; };
@@ -1747,11 +1747,11 @@
 		78FB0F9C2459C2A10276030FE4DA36C5 /* RCTSurfaceRootView.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTSurfaceRootView.mm; sourceTree = "<group>"; };
 		798913C836D4159FE568350B5478E2D1 /* glog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = glog.xcconfig; sourceTree = "<group>"; };
 		7A3E8ACCAC155F1B8B1EA5DE532A1EB8 /* RCTBaseTextViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBaseTextViewManager.m; sourceTree = "<group>"; };
-		7A41759F90B6697A3BCF46B859A34F08 /* Pods-reven_shield_chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chat.debug.xcconfig"; sourceTree = "<group>"; };
+		7A41759F90B6697A3BCF46B859A34F08 /* Pods-raven_shield_chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chat.debug.xcconfig"; sourceTree = "<group>"; };
 		7A83D27FD8F345A1472FFD5EE99C6C16 /* RCTImageSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTImageSource.h; sourceTree = "<group>"; };
 		7AEB78912BBE76D18607679B5CC85E66 /* TurboModuleBinding.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TurboModuleBinding.cpp; path = turbomodule/core/TurboModuleBinding.cpp; sourceTree = "<group>"; };
 		7B18424ABB14026D6C57BF652B5067DF /* RCTSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSpringAnimation.h; sourceTree = "<group>"; };
-		7B32F8A58C3BF5B4566F1D415ABB1DAC /* Pods-reven_shield_chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chat.release.xcconfig"; sourceTree = "<group>"; };
+		7B32F8A58C3BF5B4566F1D415ABB1DAC /* Pods-raven_shield_chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chat.release.xcconfig"; sourceTree = "<group>"; };
 		7B34603B7F234F79650ED9C4FD7A17B7 /* ReactCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactCommon-dummy.m"; sourceTree = "<group>"; };
 		7B5A320FD8BFF56BF0D77F5C101163ED /* RCTSliderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTSliderManager.m; sourceTree = "<group>"; };
 		7BC50F3FA2223A5EDCF4FE6414AD313F /* RCTDevSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDevSettings.h; sourceTree = "<group>"; };
@@ -1828,7 +1828,7 @@
 		91D7EFB24B8D4C1670921BA9A432446F /* JSIndexedRAMBundle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = JSIndexedRAMBundle.cpp; sourceTree = "<group>"; };
 		91F28A66B78413D6366CBD330546767B /* RCTRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTRootView.h; sourceTree = "<group>"; };
 		9231E99D5A0F827532CB640005E0C6CB /* RCTImageLoader.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTImageLoader.mm; sourceTree = "<group>"; };
-		923C35E4E70E0C598A8DE474A4F042D9 /* Pods-reven_shield_chatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chatTests.release.xcconfig"; sourceTree = "<group>"; };
+		923C35E4E70E0C598A8DE474A4F042D9 /* Pods-raven_shield_chatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chatTests.release.xcconfig"; sourceTree = "<group>"; };
 		933781337ED4FC9BA0287A8E412FA98E /* RCTDevMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDevMenu.h; sourceTree = "<group>"; };
 		936122275CFD1C204A3BDE65BD29BDCE /* RCTImageShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTImageShadowView.m; sourceTree = "<group>"; };
 		938413E5351CE42EEC4D347EC4E50DA2 /* TurboCxxModule.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TurboCxxModule.cpp; path = turbomodule/core/TurboCxxModule.cpp; sourceTree = "<group>"; };
@@ -1929,10 +1929,10 @@
 		BA8439E7F84D9DD9B7A3DEA95144F5E2 /* RCTAlertManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAlertManager.m; sourceTree = "<group>"; };
 		BAA557FE4A30A3444138B47136D1F3AE /* RCTActionSheetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTActionSheetManager.m; sourceTree = "<group>"; };
 		BB536373892176242651C1B602B47F1E /* RCTUIManagerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUIManagerUtils.h; sourceTree = "<group>"; };
-		BC0235A0C960ED339091EE540CC33CED /* Pods-reven_shield_chat-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chat-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0235A0C960ED339091EE540CC33CED /* Pods-raven_shield_chat-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chat-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BC4733E3A6179514123BCC430C92AFD3 /* RCTAppState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAppState.m; sourceTree = "<group>"; };
 		BCAABB41DEE296E122DFBD89A97E0D22 /* RCTTypeSafety-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTTypeSafety-dummy.m"; sourceTree = "<group>"; };
-		BD4712194A77034A0F9BE5BBF3015E3C /* Pods-reven_shield_chatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4712194A77034A0F9BE5BBF3015E3C /* Pods-raven_shield_chatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD71E2539823621820F84384064C253A /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReact-Core.a"; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD85A3412C9B0DEB18632CD145D7AA37 /* RCTInputAccessoryViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInputAccessoryViewManager.m; sourceTree = "<group>"; };
 		BDA32BDE5DBC250BBDD1DF4E83AA5295 /* RCTVirtualTextShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTVirtualTextShadowView.m; sourceTree = "<group>"; };
@@ -1940,7 +1940,7 @@
 		BE42D6D307BBC54E8BE1F766E79D0823 /* RCTUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTUITextView.h; sourceTree = "<group>"; };
 		BE79F742331FA9C0605474D625A33F55 /* YGConfig.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGConfig.cpp; path = yoga/YGConfig.cpp; sourceTree = "<group>"; };
 		BF09DA314F81EC3D1260AA658D089ACE /* JSModulesUnbundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSModulesUnbundle.h; sourceTree = "<group>"; };
-		C00CCCF4E3A7F8563F11AB34D0D55CD5 /* RCTPointerEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPointerEvents.h; sourceTree = "<group>"; };
+		C00CCCF4E3A7F8563F11AB34D0D55CD5 /* RCTPointeravents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPointeravents.h; sourceTree = "<group>"; };
 		C02969BBBD4FCA070CDA77F2DEAED752 /* RCTBlobManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCTBlobManager.h; path = Libraries/Blob/RCTBlobManager.h; sourceTree = "<group>"; };
 		C0787D785AFBDEF71894863ACC55EC89 /* RCTDevLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTDevLoadingView.h; sourceTree = "<group>"; };
 		C0B0A23BB05121754FDEF94CFC45D109 /* RCTI18nManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTI18nManager.m; sourceTree = "<group>"; };
@@ -1954,7 +1954,7 @@
 		C3444F494F82D55992C9F0315BB461F7 /* event.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = event.cpp; sourceTree = "<group>"; };
 		C35C9114619B7D01D10CA19BB44A25D9 /* glog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "glog-prefix.pch"; sourceTree = "<group>"; };
 		C44ECE4AE9D3979C2528DAF9B3E74E49 /* RCTTypeSafety.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RCTTypeSafety.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C4D81027C01E2DF2990FB92CF3A2275C /* Pods-reven_shield_chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reven_shield_chat-dummy.m"; sourceTree = "<group>"; };
+		C4D81027C01E2DF2990FB92CF3A2275C /* Pods-raven_shield_chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-raven_shield_chat-dummy.m"; sourceTree = "<group>"; };
 		C55656B1DFA4AD69A88031DF4EC0BC6B /* CxxNativeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxxNativeModule.h; sourceTree = "<group>"; };
 		C567178A667523A7F07BA61D805C0767 /* RAMBundleRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RAMBundleRegistry.h; sourceTree = "<group>"; };
 		C61F9C4C40A4AB75F000DDE59E52F3A7 /* RCTScrollViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTScrollViewManager.m; sourceTree = "<group>"; };
@@ -1972,14 +1972,14 @@
 		CAA5B8254558535D4879AFD3DC2B4F3F /* JsArgumentHelpers-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JsArgumentHelpers-inl.h"; sourceTree = "<group>"; };
 		CAC6E38C0BA18C0553FA573AD70F318C /* RCTBaseTextInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTBaseTextInputView.h; sourceTree = "<group>"; };
 		CBA5BA216BD5F60BEC972906E89D70EE /* RCTComponentData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTComponentData.h; sourceTree = "<group>"; };
-		CC3DA49F4515764211317ABD339E7ACF /* Pods-reven_shield_chatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reven_shield_chatTests-dummy.m"; sourceTree = "<group>"; };
+		CC3DA49F4515764211317ABD339E7ACF /* Pods-raven_shield_chatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-raven_shield_chatTests-dummy.m"; sourceTree = "<group>"; };
 		CCCE6419C4568B84879A6A361813D476 /* experiments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = experiments.h; sourceTree = "<group>"; };
 		CD6FD5059AD22D4C2BDB11BCB706CBE9 /* RCTPackagerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPackagerConnection.h; sourceTree = "<group>"; };
 		CD9CE2B10995AA0DBE4ECE528A187A3D /* RCTBackedTextInputDelegateAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTBackedTextInputDelegateAdapter.m; sourceTree = "<group>"; };
 		CDC6ECB27560D597CF18A60A7E1CC6B1 /* CxxModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CxxModule.h; sourceTree = "<group>"; };
 		CE265D1A1C6FAC35F244BBAC9319E5C2 /* RCTImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTImageCache.m; sourceTree = "<group>"; };
 		CE6CC27F003D02B63508A9ACEDCC58BC /* RCTMultipartStreamReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTMultipartStreamReader.m; sourceTree = "<group>"; };
-		CE9DFCD80B91183FCE5BB0C4243B1B57 /* Pods-reven_shield_chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reven_shield_chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE9DFCD80B91183FCE5BB0C4243B1B57 /* Pods-raven_shield_chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-raven_shield_chat-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE9E2E888A980CBB72B2AC34F3D9AA37 /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = yoga/YGLayout.h; sourceTree = "<group>"; };
 		CF19AA41CB6C2BAE96DBF26E01EB9B4D /* YGFloatOptional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGFloatOptional.h; path = yoga/YGFloatOptional.h; sourceTree = "<group>"; };
 		CF2C107DC4C42029AB039ACDF69FB782 /* RCTPackagerConnection.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTPackagerConnection.mm; sourceTree = "<group>"; };
@@ -2017,8 +2017,8 @@
 		D9FFDF019924D678AFA04E724A86131C /* RCTParserUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTParserUtils.m; sourceTree = "<group>"; };
 		DA109493CBC00CBBC0B89501A9DBDE8C /* RCTNativeAnimatedModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNativeAnimatedModule.m; sourceTree = "<group>"; };
 		DA5D30DF7AEA8BF1F68EEA10AE21A850 /* RCTUIImageViewAnimated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUIImageViewAnimated.m; sourceTree = "<group>"; };
-		DAE076C9A672EA6921C6D34244C858C1 /* libPods-reven_shield_chat-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-reven_shield_chat-tvOSTests.a"; path = "libPods-reven_shield_chat-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAF3092BE0F47DF034CE891F45F96B5C /* Pods-reven_shield_chat-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-reven_shield_chat-tvOS-dummy.m"; sourceTree = "<group>"; };
+		DAE076C9A672EA6921C6D34244C858C1 /* libPods-raven_shield_chat-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-raven_shield_chat-tvOSTests.a"; path = "libPods-raven_shield_chat-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF3092BE0F47DF034CE891F45F96B5C /* Pods-raven_shield_chat-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-raven_shield_chat-tvOS-dummy.m"; sourceTree = "<group>"; };
 		DBA7020F24E68ED849CA592A53F30AE5 /* RCTConvert+Text.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Text.m"; sourceTree = "<group>"; };
 		DBDDAB7980A6BFC339ED0F364ACF9178 /* RCTTextViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTTextViewManager.h; sourceTree = "<group>"; };
 		DDDA3B727477B9EEBAC5B1BACEC95B48 /* RCTTextShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTextShadowView.m; sourceTree = "<group>"; };
@@ -2036,7 +2036,7 @@
 		E2454512E02083F83227F57FBAC3493E /* RCTConvert+CoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+CoreLocation.h"; sourceTree = "<group>"; };
 		E2969C91745AB21BD0655CA25493832C /* RCTSurface.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTSurface.mm; sourceTree = "<group>"; };
 		E2A449B9837EFAC0D82FCB19743B13DA /* RCTLog.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTLog.mm; sourceTree = "<group>"; };
-		E2C424230E680A7A6AD094DF81A0F688 /* Pods-reven_shield_chat-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-reven_shield_chat-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C424230E680A7A6AD094DF81A0F688 /* Pods-raven_shield_chat-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-raven_shield_chat-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3672205892155E83BB4394FE9CE323A /* FBReactNativeSpec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBReactNativeSpec.xcconfig; sourceTree = "<group>"; };
 		E3C153D09D8207232A8A3039751E8FAA /* RCTComponentEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTComponentEvent.h; sourceTree = "<group>"; };
 		E45093DC107960CA239E1D6649FF2D7C /* RCTScrollContentViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollContentViewManager.h; sourceTree = "<group>"; };
@@ -2057,7 +2057,7 @@
 		E6E174AD82A999651715D9320DA1B207 /* RCTSafeAreaViewLocalData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSafeAreaViewLocalData.h; sourceTree = "<group>"; };
 		E7E87400BE7EC8A48E8A2532A33A446C /* SharedProxyCxxModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SharedProxyCxxModule.h; sourceTree = "<group>"; };
 		E80A15075BC319321D528F99633736BF /* RCTDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDeviceInfo.m; sourceTree = "<group>"; };
-		E83C415EB58F5527655FDE480A360344 /* libPods-reven_shield_chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-reven_shield_chat.a"; path = "libPods-reven_shield_chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83C415EB58F5527655FDE480A360344 /* libPods-raven_shield_chat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-raven_shield_chat.a"; path = "libPods-raven_shield_chat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AB76A995CA6BF08073B02B95E1C555 /* RCTInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTInputAccessoryView.m; sourceTree = "<group>"; };
 		E8D4474D109B0837E7BA55C84946B4ED /* JSCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSCRuntime.h; sourceTree = "<group>"; };
 		E900B0B8E64B5CA201557483E7C35D62 /* diy-fp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "diy-fp.h"; path = "double-conversion/diy-fp.h"; sourceTree = "<group>"; };
@@ -2080,7 +2080,7 @@
 		EEDBF403E8E0B3885E65C2741B536BC5 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReact-RCTImage.a"; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2BC0170F6FBCC8ED210724301AB0DF /* YGNodePrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNodePrint.h; path = yoga/YGNodePrint.h; sourceTree = "<group>"; };
 		EF88BF7608BF1D165F554BB4805F9AAC /* FBReactNativeSpec-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBReactNativeSpec-prefix.pch"; sourceTree = "<group>"; };
-		F04A6913ECD97B00B3C94D844D02270B /* Pods-reven_shield_chat-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reven_shield_chat-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		F04A6913ECD97B00B3C94D844D02270B /* Pods-raven_shield_chat-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-raven_shield_chat-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		F1FB2C643679B4ACBC8D5677FDD1AF0E /* RCTAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAnimatedNode.m; sourceTree = "<group>"; };
 		F2836AE247FFB05577A62FA0495B45F3 /* RCTProfileTrampoline-x86_64.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-x86_64.S"; sourceTree = "<group>"; };
 		F2E6B1AD3B76572B86C1FCF099742628 /* RCTJavaScriptLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTJavaScriptLoader.h; sourceTree = "<group>"; };
@@ -2120,12 +2120,12 @@
 		FC5DDFAA43D0F82758B53640C9686209 /* RCTAnimationUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAnimationUtils.m; sourceTree = "<group>"; };
 		FC8A1A00A71F616C59920E31A1AEB33F /* NSDataBigString.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NSDataBigString.mm; sourceTree = "<group>"; };
 		FCCA4063B5E65783E0FE23D3FF42CB2C /* RCTModuloAnimatedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTModuloAnimatedNode.m; sourceTree = "<group>"; };
-		FCFECE584573C3216399156AEFF1BE24 /* Pods-reven_shield_chatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-reven_shield_chatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCFECE584573C3216399156AEFF1BE24 /* Pods-raven_shield_chatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-raven_shield_chatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FD242B5E7304636CAAFC4963232D5F11 /* RCTReconnectingWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCTReconnectingWebSocket.m; path = Libraries/WebSocket/RCTReconnectingWebSocket.m; sourceTree = "<group>"; };
 		FE0606C6BC8641CEBBD5C25F81D8B5BA /* RCTActivityIndicatorViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTActivityIndicatorViewManager.m; sourceTree = "<group>"; };
 		FE7B9294FF05AAFD1653E2104E10844A /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReact-RCTAnimation.a"; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9353620AD75EF10057F0936FE74E61 /* React-jsi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "React-jsi.xcconfig"; sourceTree = "<group>"; };
-		FF93AB97DA44BFF61809A705CB404D05 /* Pods-reven_shield_chatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-reven_shield_chatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF93AB97DA44BFF61809A705CB404D05 /* Pods-raven_shield_chatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-raven_shield_chatTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF9812D0435D05E74329401FBFD695E9 /* RCTScrollableProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTScrollableProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2584,10 +2584,10 @@
 		240C7020D4914D36F4294F547B1A03C5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				551CC536EED3535B2E2D4852951F391B /* Pods-reven_shield_chat */,
-				67D72DF09DE19EAE339E13117884A1A2 /* Pods-reven_shield_chat-tvOS */,
-				F00BCA97EA68A7550133561D16D45B4F /* Pods-reven_shield_chat-tvOSTests */,
-				B5B649A351137C7954D605451BAFFC09 /* Pods-reven_shield_chatTests */,
+				551CC536EED3535B2E2D4852951F391B /* Pods-raven_shield_chat */,
+				67D72DF09DE19EAE339E13117884A1A2 /* Pods-raven_shield_chat-tvOS */,
+				F00BCA97EA68A7550133561D16D45B4F /* Pods-raven_shield_chat-tvOSTests */,
+				B5B649A351137C7954D605451BAFFC09 /* Pods-raven_shield_chatTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -2635,7 +2635,7 @@
 				4D8B7610BA86090FAD2CCE2ED9ED828B /* RCTPicker.m */,
 				5D6324B8A56A25E578F151EB08C37A19 /* RCTPickerManager.h */,
 				FA392C4CE1A3D1C4904CAC6578BE68F4 /* RCTPickerManager.m */,
-				C00CCCF4E3A7F8563F11AB34D0D55CD5 /* RCTPointerEvents.h */,
+				C00CCCF4E3A7F8563F11AB34D0D55CD5 /* RCTPointeravents.h */,
 				0CB9E9CD7269675E8573DF103056D465 /* RCTProgressViewManager.h */,
 				86FDC12AEA00AF49376E6F0972B2EEC1 /* RCTProgressViewManager.m */,
 				035C4E6649B40F952B756AE26F32601C /* RCTRefreshControl.h */,
@@ -3002,17 +3002,17 @@
 			path = "../../../../ios/Pods/Target Support Files/React-RCTText";
 			sourceTree = "<group>";
 		};
-		551CC536EED3535B2E2D4852951F391B /* Pods-reven_shield_chat */ = {
+		551CC536EED3535B2E2D4852951F391B /* Pods-raven_shield_chat */ = {
 			isa = PBXGroup;
 			children = (
-				CE9DFCD80B91183FCE5BB0C4243B1B57 /* Pods-reven_shield_chat-acknowledgements.markdown */,
-				4B7B837CE32E53F7636BA24C33E04388 /* Pods-reven_shield_chat-acknowledgements.plist */,
-				C4D81027C01E2DF2990FB92CF3A2275C /* Pods-reven_shield_chat-dummy.m */,
-				7A41759F90B6697A3BCF46B859A34F08 /* Pods-reven_shield_chat.debug.xcconfig */,
-				7B32F8A58C3BF5B4566F1D415ABB1DAC /* Pods-reven_shield_chat.release.xcconfig */,
+				CE9DFCD80B91183FCE5BB0C4243B1B57 /* Pods-raven_shield_chat-acknowledgements.markdown */,
+				4B7B837CE32E53F7636BA24C33E04388 /* Pods-raven_shield_chat-acknowledgements.plist */,
+				C4D81027C01E2DF2990FB92CF3A2275C /* Pods-raven_shield_chat-dummy.m */,
+				7A41759F90B6697A3BCF46B859A34F08 /* Pods-raven_shield_chat.debug.xcconfig */,
+				7B32F8A58C3BF5B4566F1D415ABB1DAC /* Pods-raven_shield_chat.release.xcconfig */,
 			);
-			name = "Pods-reven_shield_chat";
-			path = "Target Support Files/Pods-reven_shield_chat";
+			name = "Pods-raven_shield_chat";
+			path = "Target Support Files/Pods-raven_shield_chat";
 			sourceTree = "<group>";
 		};
 		565054D86A136EF56E7DB0A61B723BEB /* RCTImageHeaders */ = {
@@ -3210,17 +3210,17 @@
 			path = "../../ios/Pods/Target Support Files/React-Core";
 			sourceTree = "<group>";
 		};
-		67D72DF09DE19EAE339E13117884A1A2 /* Pods-reven_shield_chat-tvOS */ = {
+		67D72DF09DE19EAE339E13117884A1A2 /* Pods-raven_shield_chat-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				2A816DDAC90D3E88B5A763DB884D49C2 /* Pods-reven_shield_chat-tvOS-acknowledgements.markdown */,
-				F04A6913ECD97B00B3C94D844D02270B /* Pods-reven_shield_chat-tvOS-acknowledgements.plist */,
-				DAF3092BE0F47DF034CE891F45F96B5C /* Pods-reven_shield_chat-tvOS-dummy.m */,
-				BC0235A0C960ED339091EE540CC33CED /* Pods-reven_shield_chat-tvOS.debug.xcconfig */,
-				45A7E52A0534FDB09AF7D6B62593457E /* Pods-reven_shield_chat-tvOS.release.xcconfig */,
+				2A816DDAC90D3E88B5A763DB884D49C2 /* Pods-raven_shield_chat-tvOS-acknowledgements.markdown */,
+				F04A6913ECD97B00B3C94D844D02270B /* Pods-raven_shield_chat-tvOS-acknowledgements.plist */,
+				DAF3092BE0F47DF034CE891F45F96B5C /* Pods-raven_shield_chat-tvOS-dummy.m */,
+				BC0235A0C960ED339091EE540CC33CED /* Pods-raven_shield_chat-tvOS.debug.xcconfig */,
+				45A7E52A0534FDB09AF7D6B62593457E /* Pods-raven_shield_chat-tvOS.release.xcconfig */,
 			);
-			name = "Pods-reven_shield_chat-tvOS";
-			path = "Target Support Files/Pods-reven_shield_chat-tvOS";
+			name = "Pods-raven_shield_chat-tvOS";
+			path = "Target Support Files/Pods-raven_shield_chat-tvOS";
 			sourceTree = "<group>";
 		};
 		67E40C7961C36C253952934AB17BFDFD /* CxxModule */ = {
@@ -3546,17 +3546,17 @@
 			path = Drivers;
 			sourceTree = "<group>";
 		};
-		B5B649A351137C7954D605451BAFFC09 /* Pods-reven_shield_chatTests */ = {
+		B5B649A351137C7954D605451BAFFC09 /* Pods-raven_shield_chatTests */ = {
 			isa = PBXGroup;
 			children = (
-				FCFECE584573C3216399156AEFF1BE24 /* Pods-reven_shield_chatTests-acknowledgements.markdown */,
-				FF93AB97DA44BFF61809A705CB404D05 /* Pods-reven_shield_chatTests-acknowledgements.plist */,
-				CC3DA49F4515764211317ABD339E7ACF /* Pods-reven_shield_chatTests-dummy.m */,
-				BD4712194A77034A0F9BE5BBF3015E3C /* Pods-reven_shield_chatTests.debug.xcconfig */,
-				923C35E4E70E0C598A8DE474A4F042D9 /* Pods-reven_shield_chatTests.release.xcconfig */,
+				FCFECE584573C3216399156AEFF1BE24 /* Pods-raven_shield_chatTests-acknowledgements.markdown */,
+				FF93AB97DA44BFF61809A705CB404D05 /* Pods-raven_shield_chatTests-acknowledgements.plist */,
+				CC3DA49F4515764211317ABD339E7ACF /* Pods-raven_shield_chatTests-dummy.m */,
+				BD4712194A77034A0F9BE5BBF3015E3C /* Pods-raven_shield_chatTests.debug.xcconfig */,
+				923C35E4E70E0C598A8DE474A4F042D9 /* Pods-raven_shield_chatTests.release.xcconfig */,
 			);
-			name = "Pods-reven_shield_chatTests";
-			path = "Target Support Files/Pods-reven_shield_chatTests";
+			name = "Pods-raven_shield_chatTests";
+			path = "Target Support Files/Pods-raven_shield_chatTests";
 			sourceTree = "<group>";
 		};
 		B615673D001E9AC1EA995F09B2C9A7C2 /* React-RCTSettings */ = {
@@ -3822,10 +3822,10 @@
 				ABFEEA82A6C346B22843FBE0B0582182 /* libFBReactNativeSpec.a */,
 				06489499588BFA8FD5E63DD6375CD533 /* libFolly.a */,
 				3CA7A9404CCDD6BA22C97F8348CE3209 /* libglog.a */,
-				E83C415EB58F5527655FDE480A360344 /* libPods-reven_shield_chat.a */,
-				6A7A1EEE21B5CCABCD17CDE9C8CA783F /* libPods-reven_shield_chat-tvOS.a */,
-				DAE076C9A672EA6921C6D34244C858C1 /* libPods-reven_shield_chat-tvOSTests.a */,
-				1670B32F3EDD0494EA5F3E68BA4764B6 /* libPods-reven_shield_chatTests.a */,
+				E83C415EB58F5527655FDE480A360344 /* libPods-raven_shield_chat.a */,
+				6A7A1EEE21B5CCABCD17CDE9C8CA783F /* libPods-raven_shield_chat-tvOS.a */,
+				DAE076C9A672EA6921C6D34244C858C1 /* libPods-raven_shield_chat-tvOSTests.a */,
+				1670B32F3EDD0494EA5F3E68BA4764B6 /* libPods-raven_shield_chatTests.a */,
 				F958876A082BF810B342435CE3FB5AF6 /* libRCTTypeSafety.a */,
 				BD71E2539823621820F84384064C253A /* libReact-Core.a */,
 				6771D231F4C8C5976470A369C474B32E /* libReact-CoreModules.a */,
@@ -4079,17 +4079,17 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F00BCA97EA68A7550133561D16D45B4F /* Pods-reven_shield_chat-tvOSTests */ = {
+		F00BCA97EA68A7550133561D16D45B4F /* Pods-raven_shield_chat-tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BCDBD8B3C317C62543169FDD53C80BD /* Pods-reven_shield_chat-tvOSTests-acknowledgements.markdown */,
-				5665103046CD5C6F45B7048306AB7FD1 /* Pods-reven_shield_chat-tvOSTests-acknowledgements.plist */,
-				560EC1D60FEF99F139C000065DEC9DDF /* Pods-reven_shield_chat-tvOSTests-dummy.m */,
-				E2C424230E680A7A6AD094DF81A0F688 /* Pods-reven_shield_chat-tvOSTests.debug.xcconfig */,
-				2E082F362254A60CEA68052F2D36E495 /* Pods-reven_shield_chat-tvOSTests.release.xcconfig */,
+				3BCDBD8B3C317C62543169FDD53C80BD /* Pods-raven_shield_chat-tvOSTests-acknowledgements.markdown */,
+				5665103046CD5C6F45B7048306AB7FD1 /* Pods-raven_shield_chat-tvOSTests-acknowledgements.plist */,
+				560EC1D60FEF99F139C000065DEC9DDF /* Pods-raven_shield_chat-tvOSTests-dummy.m */,
+				E2C424230E680A7A6AD094DF81A0F688 /* Pods-raven_shield_chat-tvOSTests.debug.xcconfig */,
+				2E082F362254A60CEA68052F2D36E495 /* Pods-raven_shield_chat-tvOSTests.release.xcconfig */,
 			);
-			name = "Pods-reven_shield_chat-tvOSTests";
-			path = "Target Support Files/Pods-reven_shield_chat-tvOSTests";
+			name = "Pods-raven_shield_chat-tvOSTests";
+			path = "Target Support Files/Pods-raven_shield_chat-tvOSTests";
 			sourceTree = "<group>";
 		};
 		F20EB16AD723262749BAA79471EDE8F1 /* ScrollView */ = {
@@ -4593,7 +4593,7 @@
 				D082688B674EE2208906EF4596C6908C /* RCTPicker.h in Headers */,
 				F978A9DF718A5D75012FCF2212EA24A8 /* RCTPickerManager.h in Headers */,
 				CECCE3C5CB8954E76878C910F4D36638 /* RCTPlatform.h in Headers */,
-				4B3488F749EED7EF916BEA16B6B9A5A5 /* RCTPointerEvents.h in Headers */,
+				4B3488F749EED7EF916BEA16B6B9A5A5 /* RCTPointeravents.h in Headers */,
 				E374F3695520D2A247004F69FAF8FB6B /* RCTProfile.h in Headers */,
 				8C2BF29F4764DC9F98F80FC8EC651EDC /* RCTProgressViewManager.h in Headers */,
 				898FEE7242BBAA7E1BEA777B0D626C41 /* RCTPropsAnimatedNode.h in Headers */,
@@ -4784,9 +4784,9 @@
 			productReference = 73F8A95B79671F501F31EA4F1D04AA8B /* libReact-RCTActionSheet.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		12801D0453DBB2498EF546D3479B647C /* Pods-reven_shield_chat-tvOSTests */ = {
+		12801D0453DBB2498EF546D3479B647C /* Pods-raven_shield_chat-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D986BF54EC135313ECEFB3AFFAD2E5C9 /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chat-tvOSTests" */;
+			buildConfigurationList = D986BF54EC135313ECEFB3AFFAD2E5C9 /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chat-tvOSTests" */;
 			buildPhases = (
 				14E5EAD3C33FB22D04359836C1DB7222 /* Headers */,
 				15D7CB6B98C7E210CA88DE73669531FE /* Sources */,
@@ -4797,9 +4797,9 @@
 			dependencies = (
 				B6B3CE9A172AB1E8F84F144E9FFF2FF8 /* PBXTargetDependency */,
 			);
-			name = "Pods-reven_shield_chat-tvOSTests";
-			productName = "Pods-reven_shield_chat-tvOSTests";
-			productReference = DAE076C9A672EA6921C6D34244C858C1 /* libPods-reven_shield_chat-tvOSTests.a */;
+			name = "Pods-raven_shield_chat-tvOSTests";
+			productName = "Pods-raven_shield_chat-tvOSTests";
+			productReference = DAE076C9A672EA6921C6D34244C858C1 /* libPods-raven_shield_chat-tvOSTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		2AB2EF542954AB1C999E03BFEF8DE806 /* DoubleConversion */ = {
@@ -4895,9 +4895,9 @@
 			productReference = C1A919103EAC9813D236486C34FC0A21 /* libReact-RCTVibration.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		54E4BAC446FE2C7E299FC73833E1CC09 /* Pods-reven_shield_chat-tvOS */ = {
+		54E4BAC446FE2C7E299FC73833E1CC09 /* Pods-raven_shield_chat-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1E500B0EE3CC94E6804CCADAD408A95 /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chat-tvOS" */;
+			buildConfigurationList = F1E500B0EE3CC94E6804CCADAD408A95 /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chat-tvOS" */;
 			buildPhases = (
 				6864B43178FD31D5E83DF5A83F520A60 /* Headers */,
 				F8CFE5A02D86F619BB6CA5AF42507FC0 /* Sources */,
@@ -4907,9 +4907,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pods-reven_shield_chat-tvOS";
-			productName = "Pods-reven_shield_chat-tvOS";
-			productReference = 6A7A1EEE21B5CCABCD17CDE9C8CA783F /* libPods-reven_shield_chat-tvOS.a */;
+			name = "Pods-raven_shield_chat-tvOS";
+			productName = "Pods-raven_shield_chat-tvOS";
+			productReference = 6A7A1EEE21B5CCABCD17CDE9C8CA783F /* libPods-raven_shield_chat-tvOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		651511D7DA7F07F9FC9AA40A2E86270D /* React-RCTNetwork */ = {
@@ -4990,9 +4990,9 @@
 			productReference = BD71E2539823621820F84384064C253A /* libReact-Core.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7CC90F226BC3F758F4289EB332DE6CC7 /* Pods-reven_shield_chatTests */ = {
+		7CC90F226BC3F758F4289EB332DE6CC7 /* Pods-raven_shield_chatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC0603DAB13A8B9A49CB6BC8C67A151C /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chatTests" */;
+			buildConfigurationList = BC0603DAB13A8B9A49CB6BC8C67A151C /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chatTests" */;
 			buildPhases = (
 				011D7CFF9E534B588F2F3AECE1705E4B /* Headers */,
 				815F5FDDBBA79413869FCEE49D45EFD6 /* Sources */,
@@ -5003,9 +5003,9 @@
 			dependencies = (
 				032E87362089034DAB8812B9D1433961 /* PBXTargetDependency */,
 			);
-			name = "Pods-reven_shield_chatTests";
-			productName = "Pods-reven_shield_chatTests";
-			productReference = 1670B32F3EDD0494EA5F3E68BA4764B6 /* libPods-reven_shield_chatTests.a */;
+			name = "Pods-raven_shield_chatTests";
+			productName = "Pods-raven_shield_chatTests";
+			productReference = 1670B32F3EDD0494EA5F3E68BA4764B6 /* libPods-raven_shield_chatTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		938CCE22F6C4094B3FB6CF1478579E4B /* React-RCTAnimation */ = {
@@ -5066,9 +5066,9 @@
 			productReference = 06489499588BFA8FD5E63DD6375CD533 /* libFolly.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A936919F72B3AAA8BD51CDD44A7B5658 /* Pods-reven_shield_chat */ = {
+		A936919F72B3AAA8BD51CDD44A7B5658 /* Pods-raven_shield_chat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 605546145608B69A424133600415A1D8 /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chat" */;
+			buildConfigurationList = 605546145608B69A424133600415A1D8 /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chat" */;
 			buildPhases = (
 				CF09BBA9BB05A9880CB5053C2391C607 /* Headers */,
 				E691029AB1588C1AFD4A4C15BB128464 /* Sources */,
@@ -5104,9 +5104,9 @@
 				06907F79166393A56058823F99ACBDE3 /* PBXTargetDependency */,
 				E1A9242F8E5B318D131286B70D9E638A /* PBXTargetDependency */,
 			);
-			name = "Pods-reven_shield_chat";
-			productName = "Pods-reven_shield_chat";
-			productReference = E83C415EB58F5527655FDE480A360344 /* libPods-reven_shield_chat.a */;
+			name = "Pods-raven_shield_chat";
+			productName = "Pods-raven_shield_chat";
+			productReference = E83C415EB58F5527655FDE480A360344 /* libPods-raven_shield_chat.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B6D5DD49633DFF0657B8C3F08EB3ABA9 /* ReactCommon */ = {
@@ -5321,10 +5321,10 @@
 				C3496D0495E700CF08A90C41EA8FA4BB /* FBReactNativeSpec */,
 				A4F685BE3CAC127BDCE4E0DBBD88D191 /* Folly */,
 				D0EFEFB685D97280256C559792236873 /* glog */,
-				A936919F72B3AAA8BD51CDD44A7B5658 /* Pods-reven_shield_chat */,
-				54E4BAC446FE2C7E299FC73833E1CC09 /* Pods-reven_shield_chat-tvOS */,
-				12801D0453DBB2498EF546D3479B647C /* Pods-reven_shield_chat-tvOSTests */,
-				7CC90F226BC3F758F4289EB332DE6CC7 /* Pods-reven_shield_chatTests */,
+				A936919F72B3AAA8BD51CDD44A7B5658 /* Pods-raven_shield_chat */,
+				54E4BAC446FE2C7E299FC73833E1CC09 /* Pods-raven_shield_chat-tvOS */,
+				12801D0453DBB2498EF546D3479B647C /* Pods-raven_shield_chat-tvOSTests */,
+				7CC90F226BC3F758F4289EB332DE6CC7 /* Pods-raven_shield_chatTests */,
 				E7E7CE52C8C68B17224FF8C262D80ABF /* RCTRequired */,
 				D20469A9A1E5CFB26045EAEBE3F88E5E /* RCTTypeSafety */,
 				1BEE828C124E6416179B904A9F66D794 /* React */,
@@ -5418,7 +5418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD205941EB1EFAA65C512F7E84CB87D9 /* Pods-reven_shield_chat-tvOSTests-dummy.m in Sources */,
+				BD205941EB1EFAA65C512F7E84CB87D9 /* Pods-raven_shield_chat-tvOSTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5580,7 +5580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849E6310BB2D58D43C1AAC0D96175EE9 /* Pods-reven_shield_chatTests-dummy.m in Sources */,
+				849E6310BB2D58D43C1AAC0D96175EE9 /* Pods-raven_shield_chatTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5780,7 +5780,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7842721E19ED12FF7E1D2A25F79F9C1A /* Pods-reven_shield_chat-dummy.m in Sources */,
+				7842721E19ED12FF7E1D2A25F79F9C1A /* Pods-raven_shield_chat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5837,7 +5837,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B37F46A33BF49CE371611F96A4305A /* Pods-reven_shield_chat-tvOS-dummy.m in Sources */,
+				59B37F46A33BF49CE371611F96A4305A /* Pods-raven_shield_chat-tvOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5846,8 +5846,8 @@
 /* Begin PBXTargetDependency section */
 		032E87362089034DAB8812B9D1433961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-reven_shield_chat";
-			target = A936919F72B3AAA8BD51CDD44A7B5658 /* Pods-reven_shield_chat */;
+			name = "Pods-raven_shield_chat";
+			target = A936919F72B3AAA8BD51CDD44A7B5658 /* Pods-raven_shield_chat */;
 			targetProxy = 4D5B0F06485EFDF5C0B86A94B3E5A46E /* PBXContainerItemProxy */;
 		};
 		06907F79166393A56058823F99ACBDE3 /* PBXTargetDependency */ = {
@@ -6212,8 +6212,8 @@
 		};
 		B6B3CE9A172AB1E8F84F144E9FFF2FF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-reven_shield_chat-tvOS";
-			target = 54E4BAC446FE2C7E299FC73833E1CC09 /* Pods-reven_shield_chat-tvOS */;
+			name = "Pods-raven_shield_chat-tvOS";
+			target = 54E4BAC446FE2C7E299FC73833E1CC09 /* Pods-raven_shield_chat-tvOS */;
 			targetProxy = 3C420EDB06D6DA9CD241692EA3A12BF3 /* PBXContainerItemProxy */;
 		};
 		BB0C888F9800A9CBBD7F9AB387D65080 /* PBXTargetDependency */ = {
@@ -6695,7 +6695,7 @@
 		};
 		4C0406A4084F2D749DAFC6DD751F832C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2C424230E680A7A6AD094DF81A0F688 /* Pods-reven_shield_chat-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = E2C424230E680A7A6AD094DF81A0F688 /* Pods-raven_shield_chat-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -6799,7 +6799,7 @@
 		};
 		55AAE68948A21FF7FDD23F6252154234 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45A7E52A0534FDB09AF7D6B62593457E /* Pods-reven_shield_chat-tvOS.release.xcconfig */;
+			baseConfigurationReference = 45A7E52A0534FDB09AF7D6B62593457E /* Pods-raven_shield_chat-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7349,7 +7349,7 @@
 		};
 		922A2066DCB212D79D189B9C43C8F57A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD4712194A77034A0F9BE5BBF3015E3C /* Pods-reven_shield_chatTests.debug.xcconfig */;
+			baseConfigurationReference = BD4712194A77034A0F9BE5BBF3015E3C /* Pods-raven_shield_chatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7370,7 +7370,7 @@
 		};
 		94098B5EF19509BC846113F313E60ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B32F8A58C3BF5B4566F1D415ABB1DAC /* Pods-reven_shield_chat.release.xcconfig */;
+			baseConfigurationReference = 7B32F8A58C3BF5B4566F1D415ABB1DAC /* Pods-raven_shield_chat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7392,7 +7392,7 @@
 		};
 		9F93816C827CFBE5AF27AAF736029DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 923C35E4E70E0C598A8DE474A4F042D9 /* Pods-reven_shield_chatTests.release.xcconfig */;
+			baseConfigurationReference = 923C35E4E70E0C598A8DE474A4F042D9 /* Pods-raven_shield_chatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7438,7 +7438,7 @@
 		};
 		A0017E35DAA319E82D0BADFAA6259794 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A41759F90B6697A3BCF46B859A34F08 /* Pods-reven_shield_chat.debug.xcconfig */;
+			baseConfigurationReference = 7A41759F90B6697A3BCF46B859A34F08 /* Pods-raven_shield_chat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7528,7 +7528,7 @@
 		};
 		AEF77F6BF8B17BDD3D4C14406877B68E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E082F362254A60CEA68052F2D36E495 /* Pods-reven_shield_chat-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 2E082F362254A60CEA68052F2D36E495 /* Pods-raven_shield_chat-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7746,7 +7746,7 @@
 		};
 		E535C8CA595FC7879A7BF1BAD6EB6C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0235A0C960ED339091EE540CC33CED /* Pods-reven_shield_chat-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BC0235A0C960ED339091EE540CC33CED /* Pods-raven_shield_chat-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -7954,7 +7954,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		605546145608B69A424133600415A1D8 /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chat" */ = {
+		605546145608B69A424133600415A1D8 /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0017E35DAA319E82D0BADFAA6259794 /* Debug */,
@@ -8044,7 +8044,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC0603DAB13A8B9A49CB6BC8C67A151C /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chatTests" */ = {
+		BC0603DAB13A8B9A49CB6BC8C67A151C /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				922A2066DCB212D79D189B9C43C8F57A /* Debug */,
@@ -8080,7 +8080,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D986BF54EC135313ECEFB3AFFAD2E5C9 /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chat-tvOSTests" */ = {
+		D986BF54EC135313ECEFB3AFFAD2E5C9 /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chat-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C0406A4084F2D749DAFC6DD751F832C /* Debug */,
@@ -8107,7 +8107,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1E500B0EE3CC94E6804CCADAD408A95 /* Build configuration list for PBXNativeTarget "Pods-reven_shield_chat-tvOS" */ = {
+		F1E500B0EE3CC94E6804CCADAD408A95 /* Build configuration list for PBXNativeTarget "Pods-raven_shield_chat-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E535C8CA595FC7879A7BF1BAD6EB6C2A /* Debug */,

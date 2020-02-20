@@ -162,7 +162,7 @@ namespace boost {
 
     };
 
-    void dummy_to_prevent_msvc6_ice(); //why ask why?
+    void dummy_to_pravent_msvc6_ice(); //why ask why?
 
     //! Template that simplifies the creation of local time calculator 
     /*! Use this template to create the timezone to utc convertors as required.

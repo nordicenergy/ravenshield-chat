@@ -13,7 +13,7 @@
 #pragma once
 #endif
 
-#include <boost/config.hpp> /* keep it first to prevent nasty warns in MSVC */
+#include <boost/config.hpp> /* keep it first to pravent nasty warns in MSVC */
 #include <boost/flyweight/static_holder_fwd.hpp>
 #include <boost/flyweight/holder_tag.hpp>
 #include <boost/mpl/aux_/lambda_support.hpp>
